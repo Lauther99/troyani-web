@@ -17,7 +17,7 @@ export default function ScrollFrames({ frameCount }: Props) {
   const [loaded, setLoaded] = useState(false);
 
   const framePath = (i: number) =>
-    `/frames/frame_${String(i).padStart(3, "0")}.webp`;
+    `/frames-hor/frame_${String(i).padStart(3, "0")}.webp`;
 
   useEffect(() => {
     const canvas = canvasRef.current!;
@@ -90,7 +90,7 @@ export default function ScrollFrames({ frameCount }: Props) {
       onUpdate: (self) => {
         const frame = Math.max(
           0,
-          Math.min(frameCount - 1, Math.floor(self.progress * frameCount))
+          Math.min(frameCount - 1, Math.floor(self.progress * frameCount)),
         );
         if (frame !== state.frame) {
           state.frame = frame;
@@ -107,10 +107,11 @@ export default function ScrollFrames({ frameCount }: Props) {
 
   return (
     <div ref={containerRef} className="h-[200vh]">
-      <div className="sticky top-0 grid h-screen place-items-center bg-black">
+      <div className="sticky top-0 grid h-screen place-items-center bg-white pt-20 ">
         {!loaded && (
           <div className="absolute text-zinc-400">Cargando animación…</div>
         )}
+        {/* <div className="absolute top-[80px] left-1/2 -translate-x-1/2 w-full h-[10px] bg-white"></div> */}
         <canvas
           ref={canvasRef}
           className="h-full w-full max-h-[900px] max-w-[900px]"
