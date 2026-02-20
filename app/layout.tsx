@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
@@ -23,12 +23,14 @@ export const metadata: Metadata = {
     locale: "es_PE",
     type: "website",
   },
-  twitter: {
-    card: "summary_large_image",
-    title: "Troyani Inversiones - Tanques Industriales",
-    description: "Soluciones de almacenamiento industrial certificadas",
-  },
-  viewport: "width=device-width, initial-scale=1",
+  icons: {
+    icon: "/icon1.ico",
+  }
+};
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
   themeColor: "#0066CC",
 };
 
