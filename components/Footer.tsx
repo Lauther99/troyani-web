@@ -51,7 +51,7 @@ export default function Footer() {
           {/* Company Info */}
           <div>
             <Image
-              src="/logo.png"
+              src="/logo-t2.webp"
               alt="Troyani Inversiones"
               width={180}
               height={60}
