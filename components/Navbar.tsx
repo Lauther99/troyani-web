@@ -3,12 +3,12 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { Menu, X } from "lucide-react";
+import { Menu, X, ShoppingCart } from "lucide-react";
 import { phoneNumber } from "@/lib/data";
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -18,6 +18,14 @@ export default function Navbar() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  // Bloquear scroll cuando el menú está abierto
+  useEffect(() => {
+    document.body.style.overflow = isMenuOpen ? "hidden" : "";
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, [isMenuOpen]);
+
   const navLinks = [
     { href: "#inicio", label: "Inicio" },
     { href: "#nosotros", label: "Nosotros" },
@@ -26,101 +34,109 @@ export default function Navbar() {
   ];
 
   return (
-    <nav
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
-        isScrolled
-          ? // Frosted glass blanco — subtle shadow para separarlo del contenido
-            "bg-white/75 backdrop-blur-md shadow-[0_1px_24px_0_rgba(0,0,0,0.08)]"
-          : // Totalmente transparente al inicio
-            "bg-transparent"
-      }`}
-    >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-20">
-          {/* Logo */}
-          <Link href="/" className="flex items-center">
-            <Image
-              src="/logo.png"
-              alt="Troyani Inversiones"
-              width={180}
-              height={60}
-              className="h-12 w-auto"
-              priority
-            />
-          </Link>
+    <>
+      {/* ─── NAVBAR ─── */}
+      <nav
+        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
+          isScrolled
+            ? "bg-white/80 backdrop-blur-md shadow-[0_1px_24px_0_rgba(0,0,0,0.08)]"
+            : "bg-transparent"
+        }`}
+      >
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="relative flex items-center justify-between h-20">
 
-          {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-8">
-            {navLinks.map((link) => (
-              <Link
-                key={link.href}
-                href={link.href}
-                className={`text-sm font-medium transition-colors duration-300 ${
-                  isScrolled
-                    ? // Scrolled: texto primary para que contraste con el fondo blanco
-                      "text-text-primary hover:text-primary"
-                    : // Top: texto primary igual, ya que el fondo del Hero también es blanco
-                      "text-text-primary hover:text-primary"
-                }`}
-              >
-                {link.label}
+            {/* ── Izquierda: ícono de menú ── */}
+            <button
+              onClick={() => setIsMenuOpen(true)}
+              className="p-2 rounded-lg transition-colors text-text-primary hover:opacity-70"
+              aria-label="Abrir menú"
+            >
+              <Menu className="h-6 w-6" />
+            </button>
+
+            {/* ── Centro: Logo ── */}
+            <div className="absolute left-1/2 -translate-x-1/2">
+              <Link href="/" className="flex items-center">
+                <Image
+                  src="/logo-t2.webp"
+                  alt="Troyani Inversiones"
+                  width={180}
+                  height={60}
+                  className="h-12 w-auto"
+                  priority
+                />
               </Link>
-            ))}
+            </div>
 
-            {/* CTA Button */}
+            {/* ── Derecha: carrito ── */}
             <a
               href={`https://wa.me/${phoneNumber}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-primary hover:bg-primary-hover text-white px-6 py-2.5 rounded-lg font-medium transition-all duration-300 hover:shadow-lg hover:scale-105"
+              aria-label="Cotizar por WhatsApp"
+              className="p-2 rounded-lg transition-colors text-text-primary hover:opacity-70 relative"
             >
-              Cotizar por WhatsApp
+              <ShoppingCart className="h-6 w-6" />
             </a>
           </div>
-
-          {/* Mobile Menu Button */}
-          <button
-            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            className="md:hidden p-2 rounded-lg transition-colors text-text-primary"
-            aria-label="Toggle menu"
-          >
-            {isMobileMenuOpen ? (
-              <X className="h-6 w-6" />
-            ) : (
-              <Menu className="h-6 w-6" />
-            )}
-          </button>
         </div>
-      </div>
+      </nav>
 
-      {/* Mobile Menu */}
+      {/* ─── OVERLAY ─── */}
       <div
-        className={`md:hidden overflow-hidden transition-all duration-300 ${
-          isMobileMenuOpen ? "max-h-screen" : "max-h-0"
+        onClick={() => setIsMenuOpen(false)}
+        className={`fixed inset-0 z-40 bg-black/40 backdrop-blur-sm transition-opacity duration-300 ${
+          isMenuOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
         }`}
+      />
+
+      {/* ─── DRAWER LATERAL ─── */}
+      <aside
+        className={`fixed top-0 left-0 h-full w-80 z-50 flex flex-col
+          bg-dark-section text-text-inverse
+          transition-transform duration-300 ease-in-out
+          ${isMenuOpen ? "translate-x-0" : "-translate-x-full"}`}
       >
-        {/* También frosted glass blanco en mobile */}
-        <div className="px-4 pt-2 pb-6 space-y-3 bg-white/90 backdrop-blur-md shadow-lg">
+        {/* Botón cerrar */}
+        <button
+          onClick={() => setIsMenuOpen(false)}
+          className="absolute top-4 right-4 p-2 rounded-lg hover:opacity-70 transition-opacity text-text-inverse"
+          aria-label="Cerrar menú"
+        >
+          <X className="h-6 w-6" />
+        </button>
+
+        {/* Links de navegación */}
+        <nav className="flex flex-col justify-center flex-1 px-8 space-y-2">
           {navLinks.map((link) => (
             <Link
               key={link.href}
               href={link.href}
-              onClick={() => setIsMobileMenuOpen(false)}
-              className="block px-4 py-3 rounded-lg text-text-primary hover:bg-surface transition-colors font-medium"
+              onClick={() => setIsMenuOpen(false)}
+              className="text-4xl font-light tracking-tight text-text-inverse hover:text-secondary transition-colors py-2"
             >
               {link.label}
             </Link>
           ))}
+
+          {/* CTA en el drawer */}
           <a
             href={`https://wa.me/${phoneNumber}`}
             target="_blank"
             rel="noopener noreferrer"
-            className="block text-center bg-primary hover:bg-primary-hover text-white px-6 py-3 rounded-lg font-medium transition-colors"
+            onClick={() => setIsMenuOpen(false)}
+            className="text-4xl font-light tracking-tight text-secondary hover:text-secondary-hover transition-colors py-2"
           >
-            Cotizar por WhatsApp
+            Cotizar →
           </a>
+        </nav>
+
+        {/* Pie del drawer */}
+        <div className="px-8 pb-8 text-sm text-text-light">
+          <p>© {new Date().getFullYear()} Troyani Inversiones. Todos los derechos reservados.</p>
         </div>
-      </div>
-    </nav>
+      </aside>
+    </>
   );
 }
