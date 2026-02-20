@@ -145,7 +145,7 @@ export default function Hero() {
               animate={isVisible ? "animate" : "initial"}
               className="text-lg md:text-xl text-text-secondary max-w-3xl mx-auto mb-8"
             >
-              Soluciones de almacenamiento industrial certificadas para el
+              Soluciones de almacenamiento industrial autorizados por Rotoplas para el
               almacenamiento de fluidos con estándares internacionales de calidad.
             </motion.p>
 
