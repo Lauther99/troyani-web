@@ -16,9 +16,24 @@ export default function ScrollFrames({ frameCount }: Props) {
   const wrapperRef = useRef<HTMLDivElement | null>(null);
   const imagesRef = useRef<HTMLImageElement[]>([]);
   const [loaded, setLoaded] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
 
-  const framePath = (i: number) =>
-    `/hero/frames-hor/frame_${String(i).padStart(3, "0")}.webp`;
+  // Detectar tamaño de pantalla
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 768); // breakpoint móvil
+    };
+
+    handleResize(); // detectar al montar
+    window.addEventListener("resize", handleResize);
+
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  const framePath = (i: number) => {
+    const folder = isMobile ? "frames-ver" : "frames-hor";
+    return `/hero/${folder}/frame_${String(i).padStart(3, "0")}.webp`;
+  };
 
   useEffect(() => {
     const canvas = canvasRef.current!;
