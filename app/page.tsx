@@ -1,3 +1,4 @@
+
 import Hero from "@/components/Hero";
 import ScrollFrames from "@/components/ScrollFrames";
 import ProductTypes from "@/components/ProductTypes";

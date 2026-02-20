@@ -175,7 +175,7 @@ export default function HistoriaTimeline() {
                   {/* Year label (opposite side) */}
                   <div className={`flex-1 ${isLeft ? "text-left" : "text-right"}`}>
                     <span
-                      className="text-5xl font-bold opacity-10 text-text-primary select-none"
+                      className="text-5xl font-bold opacity-50 text-text-primary select-none"
                       style={{ fontVariantNumeric: "tabular-nums" }}
                     >
                       {item.year}

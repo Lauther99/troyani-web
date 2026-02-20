@@ -1,6 +1,5 @@
 "use client";
 
-
 import MorphHero from "./components/MorphHero";
 import HistoriaTimeline from "./components/HistoriaTimeline";
 import MisionVision from "./components/MisionVision";

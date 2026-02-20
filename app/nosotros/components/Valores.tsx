@@ -61,7 +61,7 @@ export default function Valores() {
         { clipPath: "inset(100% 0% 0% 0%)", opacity: 0, y: 30 },
         {
           clipPath: "inset(0% 0% 0% 0%)", opacity: 1, y: 0,
-          duration: 1.6, ease: "power3.out",
+          duration: 0.4, ease: "power3.out",
           scrollTrigger: {
             trigger: card,
             start: "top 88%",

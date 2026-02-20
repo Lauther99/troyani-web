@@ -117,7 +117,7 @@ export default function MisionVision() {
             }}
           >
             <div className="absolute top-0 left-0 w-1 h-full bg-gradient-to-b from-primary to-transparent" />
-            <div className="text-5xl mb-6 opacity-60">◎</div>
+            <div className="text-5xl mb-6 opacity-60 text-primary">◎</div>
             <h3 className="text-2xl font-bold text-white mb-4">Misión</h3>
             <p className="text-text-secondary leading-relaxed text-lg">
               Brindar soluciones confiables en almacenamiento de agua y sustancias químicas, 
@@ -137,7 +137,7 @@ export default function MisionVision() {
             }}
           >
             <div className="absolute top-0 right-0 w-1 h-full bg-gradient-to-b from-secondary to-transparent" />
-            <div className="text-5xl mb-6 opacity-60">◈</div>
+            <div className="text-5xl mb-6 opacity-60 text-primary">◈</div>
             <h3 className="text-2xl font-bold text-white mb-4">Visión</h3>
             <p className="text-text-secondary leading-relaxed text-lg">
               Ser el distribuidor de referencia en soluciones de almacenamiento industrial 
