@@ -5,10 +5,12 @@ import Image from "next/image";
 import Link from "next/link";
 import { Menu, X, ShoppingCart } from "lucide-react";
 import { phoneNumber } from "@/lib/data";
+import { usePathname } from "next/navigation";
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const pathname = usePathname();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -27,10 +29,10 @@ export default function Navbar() {
   }, [isMenuOpen]);
 
   const navLinks = [
-    { href: "#inicio", label: "Inicio" },
-    { href: "#nosotros", label: "Nosotros" },
-    { href: "#productos", label: "Productos" },
-    { href: "#contacto", label: "Contacto" },
+    { href: "/", label: "Inicio" },
+    { href: "/nosotros", label: "Nosotros" },
+    { href: "/productos", label: "Productos" },
+    { href: "/contacto", label: "Contacto" },
   ];
 
   return (
@@ -45,7 +47,6 @@ export default function Navbar() {
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="relative flex items-center justify-between h-20">
-
             {/* ── Izquierda: ícono de menú ── */}
             <button
               onClick={() => setIsMenuOpen(true)}
@@ -87,7 +88,9 @@ export default function Navbar() {
       <div
         onClick={() => setIsMenuOpen(false)}
         className={`fixed inset-0 z-40 bg-black/40 backdrop-blur-sm transition-opacity duration-300 ${
-          isMenuOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
+          isMenuOpen
+            ? "opacity-100 pointer-events-auto"
+            : "opacity-0 pointer-events-none"
         }`}
       />
 
@@ -109,17 +112,23 @@ export default function Navbar() {
 
         {/* Links de navegación */}
         <nav className="flex flex-col justify-center flex-1 px-8 space-y-2">
-          {navLinks.map((link) => (
-            <Link
-              key={link.href}
-              href={link.href}
-              onClick={() => setIsMenuOpen(false)}
-              className="text-4xl font-light tracking-tight text-text-inverse hover:text-secondary transition-colors py-2"
-            >
-              {link.label}
-            </Link>
-          ))}
-
+          {navLinks.map((link) => {
+            const isActive = pathname === link.href;
+            return (
+              <a
+                key={link.href}
+                href={link.href}
+                onClick={() => setIsMenuOpen(false)}
+                className={`text-4xl font-light tracking-tight transition-colors py-2 ${
+                  isActive
+                    ? "text-secondary"
+                    : "text-text-inverse hover:text-secondary"
+                }`}
+              >
+                {link.label}
+              </a>
+            );
+          })}
           {/* CTA en el drawer */}
           <a
             href={`https://wa.me/${phoneNumber}`}
@@ -134,7 +143,10 @@ export default function Navbar() {
 
         {/* Pie del drawer */}
         <div className="px-8 pb-8 text-sm text-text-light">
-          <p>© {new Date().getFullYear()} Troyani Inversiones. Todos los derechos reservados.</p>
+          <p>
+            © {new Date().getFullYear()} Troyani Inversiones. Todos los derechos
+            reservados.
+          </p>
         </div>
       </aside>
     </>
