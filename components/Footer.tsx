@@ -2,30 +2,45 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { Facebook, Instagram, Linkedin, Mail, MapPin, Phone } from "lucide-react";
+import {
+  Facebook,
+  Instagram,
+  Linkedin,
+  Mail,
+  MapPin,
+  Phone,
+} from "lucide-react";
+import { formatPhoneNumber, phoneNumber } from "@/lib/data";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   const quickLinks = [
     { href: "#inicio", label: "Inicio" },
+    { href: "#nosotros", label: "Nosotros" },
     { href: "#productos", label: "Productos" },
-    { href: "#beneficios", label: "Beneficios" },
-    { href: "#galeria", label: "Galería" },
     { href: "#contacto", label: "Contacto" },
   ];
 
   const products = [
-    { href: "#", label: "Tanques Industriales" },
     { href: "#", label: "Cisternas" },
+    { href: "#", label: "Tanques" },
+    { href: "#", label: "Tolvas" },
     { href: "#", label: "Biodigestores" },
-    { href: "#", label: "Tanques Especiales" },
   ];
 
   const socialLinks = [
-    { icon: Facebook, href: "https://facebook.com/troyani", label: "Facebook" },
-    { icon: Instagram, href: "https://instagram.com/troyani_inversiones", label: "Instagram" },
-    { icon: Linkedin, href: "https://linkedin.com/company/troyani", label: "LinkedIn" },
+    { icon: Facebook, href: "https://www.facebook.com/Troyaniinversiones.pe", label: "Facebook" },
+    {
+      icon: Instagram,
+      href: "https://instagram.com/troyani.inversiones",
+      label: "Instagram",
+    },
+    // {
+    //   icon: Linkedin,
+    //   href: "https://linkedin.com/company/troyani",
+    //   label: "LinkedIn",
+    // },
   ];
 
   return (
@@ -43,9 +58,10 @@ export default function Footer() {
               className="h-12 w-auto mb-6"
             />
             <p className="text-gray-400 mb-6 leading-relaxed">
-              Soluciones de almacenamiento industrial certificadas con más de 15 años de experiencia en el mercado.
+              Distribuidores autorizados <b>Rotoplas</b> con más de <b>11
+              años</b> de experiencia en el mercado.
             </p>
-            
+
             {/* Social Links */}
             <div className="flex gap-4">
               {socialLinks.map((social) => {
@@ -76,8 +92,18 @@ export default function Footer() {
                     href={link.href}
                     className="text-gray-400 hover:text-primary transition-colors duration-300 inline-flex items-center gap-2 group"
                   >
-                    <svg className="w-4 h-4 opacity-0 group-hover:opacity-100 transition-opacity" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                    <svg
+                      className="w-4 h-4 opacity-0 group-hover:opacity-100 transition-opacity"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M9 5l7 7-7 7"
+                      />
                     </svg>
                     {link.label}
                   </Link>
@@ -96,8 +122,18 @@ export default function Footer() {
                     href={product.href}
                     className="text-gray-400 hover:text-primary transition-colors duration-300 inline-flex items-center gap-2 group"
                   >
-                    <svg className="w-4 h-4 opacity-0 group-hover:opacity-100 transition-opacity" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                    <svg
+                      className="w-4 h-4 opacity-0 group-hover:opacity-100 transition-opacity"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M9 5l7 7-7 7"
+                      />
                     </svg>
                     {product.label}
                   </Link>
@@ -112,18 +148,24 @@ export default function Footer() {
             <ul className="space-y-4">
               <li className="flex items-start gap-3 text-gray-400">
                 <MapPin className="w-5 h-5 text-primary flex-shrink-0 mt-1" />
-                <span>Lima, Perú</span>
+                <span>Piura, Perú</span>
               </li>
               <li className="flex items-start gap-3 text-gray-400">
                 <Phone className="w-5 h-5 text-primary flex-shrink-0 mt-1" />
-                <a href="tel:+51999999999" className="hover:text-primary transition-colors">
-                  +51 999 999 999
+                <a
+                  href={`tel:+${phoneNumber}`}
+                  className="hover:text-primary transition-colors"
+                >
+                  {formatPhoneNumber(phoneNumber)}
                 </a>
               </li>
               <li className="flex items-start gap-3 text-gray-400">
                 <Mail className="w-5 h-5 text-primary flex-shrink-0 mt-1" />
-                <a href="mailto:ventas@troyani.com" className="hover:text-primary transition-colors">
-                  ventas@troyani.com
+                <a
+                  href="mailto:ventas@troyani.com"
+                  className="hover:text-primary transition-colors"
+                >
+                  stroyani@troyaniinversiones.com
                 </a>
               </li>
             </ul>
@@ -152,16 +194,23 @@ export default function Footer() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-gray-400 text-sm text-center md:text-left">
-              © {currentYear} Troyani Inversiones. Todos los derechos reservados.
+              © {currentYear} Troyani Inversiones. Todos los derechos
+              reservados.
             </p>
-            <div className="flex gap-6 text-sm">
-              <Link href="#" className="text-gray-400 hover:text-primary transition-colors">
+            {/* <div className="flex gap-6 text-sm">
+              <Link
+                href="#"
+                className="text-gray-400 hover:text-primary transition-colors"
+              >
                 Política de Privacidad
               </Link>
-              <Link href="#" className="text-gray-400 hover:text-primary transition-colors">
+              <Link
+                href="#"
+                className="text-gray-400 hover:text-primary transition-colors"
+              >
                 Términos de Servicio
               </Link>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

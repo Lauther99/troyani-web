@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { Menu, X } from "lucide-react";
+import { phoneNumber } from "@/lib/data";
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -13,25 +14,25 @@ export default function Navbar() {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 50);
     };
-
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   const navLinks = [
     { href: "#inicio", label: "Inicio" },
+    { href: "#nosotros", label: "Nosotros" },
     { href: "#productos", label: "Productos" },
-    { href: "#beneficios", label: "Beneficios" },
-    { href: "#galeria", label: "Galería" },
     { href: "#contacto", label: "Contacto" },
   ];
 
   return (
     <nav
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
         isScrolled
-          ? "bg-white/90 dark:bg-dark-section/90 backdrop-blur-md shadow-lg"
-          : "bg-transparent"
+          ? // Frosted glass blanco — subtle shadow para separarlo del contenido
+            "bg-white/75 backdrop-blur-md shadow-[0_1px_24px_0_rgba(0,0,0,0.08)]"
+          : // Totalmente transparente al inicio
+            "bg-transparent"
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -54,19 +55,21 @@ export default function Navbar() {
               <Link
                 key={link.href}
                 href={link.href}
-                className={`text-sm font-medium transition-colors hover:text-primary ${
+                className={`text-sm font-medium transition-colors duration-300 ${
                   isScrolled
-                    ? "text-text-primary"
-                    : "text-white hover:text-secondary"
+                    ? // Scrolled: texto primary para que contraste con el fondo blanco
+                      "text-text-primary hover:text-primary"
+                    : // Top: texto primary igual, ya que el fondo del Hero también es blanco
+                      "text-text-primary hover:text-primary"
                 }`}
               >
                 {link.label}
               </Link>
             ))}
-            
+
             {/* CTA Button */}
             <a
-              href="https://wa.me/51999999999"
+              href={`https://wa.me/${phoneNumber}`}
               target="_blank"
               rel="noopener noreferrer"
               className="bg-primary hover:bg-primary-hover text-white px-6 py-2.5 rounded-lg font-medium transition-all duration-300 hover:shadow-lg hover:scale-105"
@@ -78,9 +81,7 @@ export default function Navbar() {
           {/* Mobile Menu Button */}
           <button
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            className={`md:hidden p-2 rounded-lg transition-colors ${
-              isScrolled ? "text-text-primary" : "text-white"
-            }`}
+            className="md:hidden p-2 rounded-lg transition-colors text-text-primary"
             aria-label="Toggle menu"
           >
             {isMobileMenuOpen ? (
@@ -98,7 +99,8 @@ export default function Navbar() {
           isMobileMenuOpen ? "max-h-screen" : "max-h-0"
         }`}
       >
-        <div className="px-4 pt-2 pb-6 space-y-3 bg-white dark:bg-dark-section shadow-lg">
+        {/* También frosted glass blanco en mobile */}
+        <div className="px-4 pt-2 pb-6 space-y-3 bg-white/90 backdrop-blur-md shadow-lg">
           {navLinks.map((link) => (
             <Link
               key={link.href}
@@ -110,7 +112,7 @@ export default function Navbar() {
             </Link>
           ))}
           <a
-            href="https://wa.me/51999999999"
+            href={`https://wa.me/${phoneNumber}`}
             target="_blank"
             rel="noopener noreferrer"
             className="block text-center bg-primary hover:bg-primary-hover text-white px-6 py-3 rounded-lg font-medium transition-colors"
