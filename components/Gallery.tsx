@@ -73,7 +73,7 @@ export default function Gallery() {
         <div className="text-center mb-16 scroll-animate">
           <div className="inline-flex items-center gap-3 bg-white/10 backdrop-blur-sm px-6 py-3 rounded-full mb-6">
             <Instagram className="w-5 h-5 text-white" />
-            <span className="text-white font-medium">@troyani_inversiones</span>
+            <span className="text-white font-medium">@troyani.inversiones</span>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
             Nuestros Proyectos Recientes
@@ -135,7 +135,7 @@ export default function Gallery() {
         {/* CTA to Instagram */}
         <div className="text-center scroll-animate">
           <a
-            href="https://www.instagram.com/troyani_inversiones"
+            href="https://www.instagram.com/troyani.inversiones"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-3 bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white px-8 py-4 rounded-lg font-semibold transition-all duration-300 hover:shadow-xl hover:scale-105"

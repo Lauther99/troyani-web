@@ -59,14 +59,16 @@ const products = [
   },
 ];
 
-export default function ProductTypes() {
+export default function ProductTypesClipPath() {
   const sectionRef = useRef<HTMLElement>(null);
   const headerRef = useRef<HTMLDivElement>(null);
   const cardsRef = useRef<(HTMLDivElement | null)[]>([]);
   const bottomRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    // ─── Header: simple fade ──────────────────────────────────────────────
+    const section = sectionRef.current!;
+
+    // ─── Header: simple fade in ───────────────────────────────────────────
     if (headerRef.current) {
       gsap.fromTo(
         headerRef.current,
@@ -85,37 +87,37 @@ export default function ProductTypes() {
       );
     }
 
-    // ─── Cards: zoom out from center ──────────────────────────────────────
-    // Each card starts at scale(2.2) + opacity 0, centered on itself,
-    // then shrinks to scale(1) in its grid position — staggered cascade.
+    // ─── Cards: clip-path reveal (descorrido de abajo hacia arriba) ────────
+    // Each card starts fully clipped (inset 100% from bottom = invisible)
+    // and reveals upward as it enters the viewport.
+    // Stagger: each card triggers slightly later so they cascade.
     cardsRef.current.forEach((card, i) => {
       if (!card) return;
 
       gsap.fromTo(
         card,
         {
-          scale: 2.2,
+          clipPath: "inset(100% 0% 0% 0%)", // fully hidden below its own edge
           opacity: 0,
-          filter: "blur(8px)",
-          transformOrigin: "center center",
+          y: 40,
         },
         {
-          scale: 1,
+          clipPath: "inset(0% 0% 0% 0%)", // fully revealed
           opacity: 1,
-          filter: "blur(0px)",
+          y: 0,
           duration: 1.8,
-          ease: "expo.out", // fast drop then smooth landing
-          delay: i * 0.25,
+          ease: "power3.out",
           scrollTrigger: {
             trigger: card,
-            start: "top 90%",
+            start: "top 88%",
             toggleActions: "play none none none",
           },
+          delay: i * 0.25, // stagger between cards
         },
       );
     });
 
-    // ─── Bottom CTA ───────────────────────────────────────────────────────
+    // ─── Bottom CTA: fade up ──────────────────────────────────────────────
     if (bottomRef.current) {
       gsap.fromTo(
         bottomRef.current,
@@ -143,10 +145,10 @@ export default function ProductTypes() {
     <section
       id="productos"
       ref={sectionRef}
-      className="py-20 bg-gradient-to-b from-dark-section to-black overflow-hidden"
+      className="py-20 bg-gradient-to-b from-dark-section to-black"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* ── Header ───────────────────────────────────────────────────── */}
+        {/* ── Header ────────────────────────────────────────────────────── */}
         <div
           ref={headerRef}
           className="text-center mb-16"
@@ -156,9 +158,9 @@ export default function ProductTypes() {
             Nuestros Tipos de Tanques
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-primary to-secondary mx-auto mb-6" />
-          {/* <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+          <p className="text-xl text-gray-300 max-w-3xl mx-auto">
             Diseñados bajo normativa específica para cada industria
-          </p> */}
+          </p>
         </div>
 
         {/* ── Products Grid ─────────────────────────────────────────────── */}
@@ -171,9 +173,10 @@ export default function ProductTypes() {
               }}
               style={{
                 opacity: 0,
-                willChange: "transform, opacity, filter",
+                clipPath: "inset(100% 0% 0% 0%)",
+                willChange: "clip-path, opacity, transform",
               }}
-              className="group relative bg-gradient-to-br from-gray-900 to-gray-800 rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-shadow duration-300"
+              className="group relative bg-gradient-to-br from-gray-900 to-gray-800 rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-shadow duration-300 cursor-pointer"
             >
               {/* Image */}
               <div className="relative h-64 overflow-hidden">
@@ -224,13 +227,13 @@ export default function ProductTypes() {
                 </button>
               </div>
 
-              {/* Hover overlay */}
+              {/* Hover gradient overlay */}
               <div className="absolute inset-0 bg-gradient-to-br from-primary/0 to-secondary/0 group-hover:from-primary/5 group-hover:to-secondary/5 transition-all duration-500 pointer-events-none" />
             </div>
           ))}
         </div>
 
-        {/* ── Bottom CTA ───────────────────────────────────────────────── */}
+        {/* ── Bottom CTA ────────────────────────────────────────────────── */}
         <div
           ref={bottomRef}
           className="text-center mt-16"
@@ -248,7 +251,7 @@ export default function ProductTypes() {
             <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
               <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
             </svg>
-            Solicitar Cotización
+            Solicitar Cotización Personalizada
           </a>
         </div>
       </div>

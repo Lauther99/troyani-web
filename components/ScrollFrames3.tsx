@@ -13,24 +13,23 @@ type Props = {
 export default function ScrollFrames({ frameCount }: Props) {
   const containerRef = useRef<HTMLDivElement | null>(null);
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
-  const wrapperRef = useRef<HTMLDivElement | null>(null);
   const imagesRef = useRef<HTMLImageElement[]>([]);
   const [loaded, setLoaded] = useState(false);
 
   const framePath = (i: number) =>
-    `/hero/frames-hor/frame_${String(i).padStart(3, "0")}.webp`;
+    `/frames/frame_${String(i).padStart(3, "0")}.webp`;
 
   useEffect(() => {
     const canvas = canvasRef.current!;
     const ctx = canvas.getContext("2d")!;
     const container = containerRef.current!;
-    const wrapper = wrapperRef.current!;
 
     const images: HTMLImageElement[] = [];
     let loadedCount = 0;
 
     const preloadFirst = Math.min(20, frameCount);
 
+    // Precarga primeros frames
     for (let i = 0; i < preloadFirst; i++) {
       const img = new Image();
       img.src = framePath(i);
@@ -39,12 +38,12 @@ export default function ScrollFrames({ frameCount }: Props) {
         if (loadedCount === preloadFirst) {
           setLoaded(true);
           drawFrame(0);
-          playEntrance();
         }
       };
       images[i] = img;
     }
 
+    // Carga el resto en background
     for (let i = preloadFirst; i < frameCount; i++) {
       const img = new Image();
       img.src = framePath(i);
@@ -78,26 +77,6 @@ export default function ScrollFrames({ frameCount }: Props) {
       ctx.drawImage(img, x, y, img.width * scale, img.height * scale);
     }
 
-    // Drop + bounce entrance animation on the canvas wrapper
-    function playEntrance() {
-      gsap.fromTo(
-        wrapper,
-        {
-          y: -120,
-          opacity: 0,
-          scale: 0.85,
-        },
-        {
-          y: 0,
-          opacity: 1,
-          scale: 1,
-          duration: 1.1,
-          ease: "bounce.out",
-          delay: 0.15,
-        }
-      );
-    }
-
     resize();
     window.addEventListener("resize", resize);
 
@@ -128,23 +107,14 @@ export default function ScrollFrames({ frameCount }: Props) {
 
   return (
     <div ref={containerRef} className="h-[200vh]">
-      <div className="sticky top-0 grid h-screen place-items-center bg-white pt-20">
+      <div className="sticky top-0 grid h-screen place-items-center bg-black">
         {!loaded && (
-          <div className="absolute text-zinc-400 animate-pulse text-sm tracking-widest uppercase">
-            Cargando…
-          </div>
+          <div className="absolute text-zinc-400">Cargando animación…</div>
         )}
-        {/* Wrapper is what gets the entrance animation */}
-        <div
-          ref={wrapperRef}
-          style={{ opacity: 0 }} // starts invisible; GSAP animates it in
-          className="h-full w-full flex items-center justify-center"
-        >
-          <canvas
-            ref={canvasRef}
-            className="h-full w-full max-h-[900px] max-w-[900px]"
-          />
-        </div>
+        <canvas
+          ref={canvasRef}
+          className="h-full w-full max-h-[900px] max-w-[900px]"
+        />
       </div>
     </div>
   );
