@@ -110,7 +110,7 @@ export default function CTASection() {
     {
       icon: Mail,
       label: "Email",
-      value: "ventas@troyani.com",
+      value: "stroyani@troyaniinversiones.com",
     },
     {
       icon: MapPin,

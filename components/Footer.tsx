@@ -153,7 +153,7 @@ export default function Footer() {
               <li className="flex items-start gap-3 text-gray-400">
                 <Phone className="w-5 h-5 text-primary flex-shrink-0 mt-1" />
                 <a
-                  href={`tel:+${phoneNumber}`}
+                  href={`https://wa.me/${phoneNumber}`}
                   className="hover:text-primary transition-colors"
                 >
                   {formatPhoneNumber(phoneNumber)}
@@ -162,7 +162,7 @@ export default function Footer() {
               <li className="flex items-start gap-3 text-gray-400">
                 <Mail className="w-5 h-5 text-primary flex-shrink-0 mt-1" />
                 <a
-                  href="mailto:ventas@troyani.com"
+                  // href="mailto:stroyani@troyaniinversiones.com"
                   className="hover:text-primary transition-colors"
                 >
                   stroyani@troyaniinversiones.com
