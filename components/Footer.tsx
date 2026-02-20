@@ -5,7 +5,7 @@ import Link from "next/link";
 import {
   Facebook,
   Instagram,
-  Linkedin,
+  // Linkedin,
   Mail,
   MapPin,
   Phone,
@@ -16,10 +16,10 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   const quickLinks = [
-    { href: "#inicio", label: "Inicio" },
-    { href: "#nosotros", label: "Nosotros" },
-    { href: "#productos", label: "Productos" },
-    { href: "#contacto", label: "Contacto" },
+    { href: "/", label: "Inicio" },
+    { href: "/nosotros", label: "Nosotros" },
+    { href: "/productos", label: "Productos" },
+    { href: "/contacto", label: "Contacto" },
   ];
 
   const products = [
@@ -88,7 +88,7 @@ export default function Footer() {
             <ul className="space-y-3">
               {quickLinks.map((link) => (
                 <li key={link.href}>
-                  <Link
+                  <a
                     href={link.href}
                     className="text-gray-400 hover:text-primary transition-colors duration-300 inline-flex items-center gap-2 group"
                   >
@@ -106,7 +106,7 @@ export default function Footer() {
                       />
                     </svg>
                     {link.label}
-                  </Link>
+                  </a>
                 </li>
               ))}
             </ul>
