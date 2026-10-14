@@ -1,0 +1,74 @@
+/*
+ * tokens.css: única fuente de color, radios, sombras y motion del sitio.
+ * Ningún componente escribe un HEX a mano. Fuente: wireframe final v1, págs. 2, 13, 21 y 22.
+ *
+ * `--color-*: initial` elimina la paleta por defecto de Tailwind: solo existen
+ * las utilidades de color definidas aquí (bg-primary, text-text-muted, etc.).
+ */
+
+@theme static {
+  --color-*: initial;
+
+  /* Marca */
+  --color-primary: #172b3a;          /* Azul acero oscuro: header, footer, H1, botón primario */
+  --color-primary-hover: #2f5d73;    /* hover del botón primario */
+  --color-primary-pressed: #0f1f2b;
+  --color-secondary: #2f5d73;        /* Azul industrial: dato técnico, dimensiones, enlaces */
+  --color-accent: #f5b82e;           /* Amarillo seguridad: solo CTA, litraje, subrayado activo, foco */
+  --color-accent-hover: #e0a51f;
+  --color-accent-pressed: #c9921a;
+
+  /* Superficies */
+  --color-bg: #f4f6f7;
+  --color-surface: #ffffff;
+  --color-white: #ffffff;
+  --color-black: #000000;
+
+  /* Texto */
+  --color-text: #1e252b;
+  --color-text-muted: #5b6a74;       /* token corregido WCAG (antes #65747E) */
+  --color-text-disabled: #a9b5bd;    /* exento de contraste, siempre con motivo visible */
+  --color-text-nav: #d9e0e4;         /* links sobre header navy */
+
+  /* Bordes */
+  --color-border: #d9e0e4;           /* decorativo: cards, separadores */
+  --color-border-strong: #7d8a94;    /* campos, pills, chips, checkboxes */
+
+  /* Semánticos */
+  --color-success: #3e8e68;          /* iconos y rellenos, no texto pequeño */
+  --color-success-text: #2f7454;
+  --color-danger: #c84b4b;           /* bordes e iconos de error */
+  --color-danger-text: #a83a3a;
+
+  /* Tintes de badge (fondo · borde) */
+  --color-tint-ok: #e7f3ec;
+  --color-tint-ok-border: #bfdccb;
+  --color-tint-danger: #fbecec;
+  --color-tint-danger-border: #edc4c4;
+  --color-tint-tech: #e8f0f4;
+  --color-tint-tech-border: #c5d6df;
+  --color-tint-tech-pressed: #d3e2ea;
+
+  /* Tipografía (variables inyectadas por next/font en app/layout.tsx) */
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-space-grotesk), var(--font-inter), ui-sans-serif, sans-serif;
+
+  /* Radios */
+  --radius-control: 6px;
+  --radius-card: 10px;
+  --radius-container: 16px;
+
+  /* Sombras: solo hover de card, sheets y modales */
+  --shadow-card: 0 4px 12px rgb(23 43 58 / 0.08);
+  --shadow-overlay: 0 12px 32px rgb(23 43 58 / 0.18);
+
+  /* Motion */
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+:root {
+  --dur-micro: 150ms;
+  --dur-card: 200ms;
+  --overlay-veil: rgb(23 43 58 / 0.4);
+  --header-h: 64px;
+}

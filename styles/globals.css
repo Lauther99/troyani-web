@@ -1,0 +1,123 @@
+@import "tailwindcss";
+@import "./tokens.css";
+
+/* ─── Base ──────────────────────────────────────────────────────────── */
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    transition: all 1s;
+  }
+
+  body {
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    font-family: var(--font-sans);
+    font-size: 1rem;
+    line-height: 1.625;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-display);
+    font-weight: 700;
+    color: var(--color-primary);
+    line-height: 1.2;
+    text-wrap: balance;
+  }
+
+  /* Escala tipográfica fluida (wireframe pág. 2) */
+  h1 {
+    font-size: clamp(1.75rem, 1.3rem + 1.6vw, 2.5rem);
+  }
+  h2 {
+    font-size: clamp(1.375rem, 1.1rem + 1vw, 2rem);
+  }
+  h3 {
+    font-size: 1.25rem;
+  }
+
+  /* Foco visible de tres capas: separación blanca, anillo navy, anillo amarillo */
+  :focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 4px;
+    box-shadow:
+      0 0 0 2px var(--color-surface),
+      0 0 0 4px var(--color-primary);
+  }
+
+  ::selection {
+    background-color: var(--color-tint-tech-pressed);
+    color: var(--color-primary);
+  }
+}
+
+/* ─── Utilidades del sistema ────────────────────────────────────────── */
+@utility text-hero {
+  font-size: clamp(2rem, 1.2rem + 3vw, 3.5rem);
+}
+
+@utility text-caption {
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+/* Cifra técnica: litros, cm, mm, precios */
+@utility cifra {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+@utility container-site {
+  width: 100%;
+  max-width: 1280px;
+  margin-inline: auto;
+  padding-inline: 16px;
+  @media (width >= 48rem) {
+    padding-inline: 24px;
+  }
+}
+
+/* ─── P5 · Menú móvil ───────────────────────────────────────────────── */
+html:has(dialog[open]) {
+  overflow: hidden;
+}
+
+.mobile-menu[open] {
+  animation: menu-in 200ms var(--ease-out);
+}
+
+@keyframes menu-in {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+}
+
+@keyframes drift {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+/* ─── Motion: todo se apaga con prefers-reduced-motion ──────────────── */
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

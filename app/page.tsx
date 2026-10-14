@@ -1,35 +1,42 @@
+import CategoryCards from "@/components/home/CategoryCards";
+import ClosingCta from "@/components/home/ClosingCta";
+import FeaturedProducts from "@/components/home/FeaturedProducts";
+import GradeComparison from "@/components/home/GradeComparison";
+import Hero from "@/components/home/Hero";
+import StickyBar from "@/components/layout/StickyBar";
+import TrustBar from "@/components/trust/TrustBar";
+import {
+  getBrands,
+  getCategories,
+  getDestacados,
+  getProducts,
+  getSite,
+} from "@/lib/content";
 
-import Hero from "@/components/Hero";
-import ScrollFrames from "@/components/ScrollFrames";
-import ProductTypes from "@/components/ProductTypes";
-import WhyTroyani from "@/components/WhyTroyani";
-import Gallery from "@/components/Gallery";
-import CTASection from "@/components/CTASection";
-import HeroScrolled from "@/components/HeroScrolled";
-import ProductTypesClipPath from "@/components/ProductTypesClipPath";
+// Revalidación diaria: precio (> 30 días) y disponibilidad (> 15 días) degradan solos sin deploy.
+export const revalidate = 86400;
 
 export default function Home() {
+  const site = getSite();
+  const products = getProducts();
+  const categories = getCategories();
+  const destacados = getDestacados(4);
+  const brands = getBrands();
+  const ciudadPrincipal = site.almacenes[0]?.ciudad ?? "Lima";
+
   return (
     <>
-      {/* Hero Section with animated title */}
-      {/* <Hero /> */}
-      <HeroScrolled />
-
-      {/* 3D Animation Section - Your GSAP scroll frames */}
-      <ScrollFrames frameCount={191} />
-
-      {/* Product Types Section - Dark background */}
-      <ProductTypes />
-      {/* <ProductTypesClipPath /> */}
-
-      {/* Why Choose Troyani - Light background */}
-      <WhyTroyani />
-
-      {/* Gallery Section - Dark background */}
-      {/* <Gallery /> */}
-
-      {/* Final CTA Section - Dark background */}
-      <CTASection />
+      <Hero ciudad={ciudadPrincipal} />
+      <TrustBar items={site.datos_confianza} />
+      <CategoryCards categories={categories} products={products} />
+      <FeaturedProducts
+        products={destacados}
+        brands={brands}
+        respuestaHoras={site.respuesta_horas}
+      />
+      <GradeComparison products={products} />
+      <ClosingCta respuestaHoras={site.respuesta_horas} />
+      {/* <StickyBar /> */}
     </>
   );
 }

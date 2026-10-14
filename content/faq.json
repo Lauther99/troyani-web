@@ -1,0 +1,116 @@
+[
+  {
+    "slug": "compra",
+    "grupo": "Compra",
+    "preguntas": [
+      {
+        "pregunta": "¿Los precios incluyen IGV y flete?",
+        "respuesta": "Todos los precios publicados están en soles e incluyen IGV. El flete se cotiza según el destino y la cantidad; cada ficha indica si la entrega en Lima está incluida."
+      },
+      {
+        "pregunta": "¿Emiten factura?",
+        "respuesta": "Sí. Emitimos factura electrónica o boleta. Para factura necesitamos el RUC y la razón social al momento de cotizar."
+      },
+      {
+        "pregunta": "¿Cómo hago un pedido?",
+        "respuesta": "Elige el producto y la cantidad, y presiona \"Cotizar por WhatsApp\". El mensaje llega con el producto, la capacidad y el precio que viste; ventas confirma stock, flete y forma de pago."
+      },
+      {
+        "pregunta": "¿Hay precio especial por volumen?",
+        "respuesta": "En algunos productos sí. Cuando existe, la ficha muestra el precio unitario desde cierta cantidad. Para proyectos con varios productos, solicita una cotización formal con RUC."
+      },
+      {
+        "pregunta": "¿Por qué algunos productos dicen \"Precio por cotización\"?",
+        "respuesta": "Porque su precio depende de la configuración o porque no lo hemos confirmado en los últimos 30 días. Preferimos no mostrar un precio que podría haber cambiado."
+      }
+    ]
+  },
+  {
+    "slug": "despacho",
+    "grupo": "Despacho",
+    "preguntas": [
+      {
+        "pregunta": "¿Hacen envíos a provincias?",
+        "respuesta": "Sí, con transporte propio o aliado. La cobertura, el plazo y el costo dependen de la región y se confirman al cotizar."
+      },
+      {
+        "pregunta": "¿Puedo recoger en el almacén?",
+        "respuesta": "Sí. Coordina por WhatsApp el día y la hora de recojo. Ten en cuenta el tamaño del tanque para elegir el vehículo adecuado."
+      },
+      {
+        "pregunta": "¿Qué significa \"A pedido\"?",
+        "respuesta": "Que el producto no está en el almacén en este momento y se solicita al fabricante. La ficha indica el plazo estimado en días hábiles."
+      },
+      {
+        "pregunta": "¿Qué vehículo se necesita para transportar un tanque grande?",
+        "respuesta": "Depende del diámetro y la altura del tanque. Cada ficha indica el largo mínimo de plataforma recomendado en la sección de instalación y transporte."
+      }
+    ]
+  },
+  {
+    "slug": "instalacion",
+    "grupo": "Instalación",
+    "preguntas": [
+      {
+        "pregunta": "¿Qué base necesita un tanque de 10,000 L?",
+        "respuesta": "Una losa de concreto nivelada, lisa y sin piedras, con un diámetro mayor al del tanque. Las medidas exactas en cm están en la ficha de cada producto."
+      },
+      {
+        "pregunta": "¿Puedo enterrar un tanque vertical?",
+        "respuesta": "No. Los tanques verticales están diseñados para instalarse sobre una base. Para enterrar, usa una cisterna diseñada para ese fin."
+      },
+      {
+        "pregunta": "¿Ustedes instalan?",
+        "respuesta": "Podemos recomendar instaladores según la zona. La instalación debe seguir las indicaciones del fabricante para conservar la garantía."
+      },
+      {
+        "pregunta": "¿Puedo perforar el tanque para agregar una salida?",
+        "respuesta": "Se recomienda usar bridas y accesorios del fabricante. Una perforación mal hecha puede generar fugas y anular la garantía."
+      }
+    ]
+  },
+  {
+    "slug": "garantia",
+    "grupo": "Garantía",
+    "preguntas": [
+      {
+        "pregunta": "¿Qué cubre la garantía?",
+        "respuesta": "Los defectos de fabricación, según la marca y la línea del producto. Los años de garantía figuran en la ficha de cada producto."
+      },
+      {
+        "pregunta": "¿Qué anula la garantía?",
+        "respuesta": "Una instalación sin base adecuada, almacenar líquidos fuera de la tabla de compatibilidad química, perforaciones no autorizadas o golpes durante el transporte."
+      },
+      {
+        "pregunta": "¿Cómo hago un reclamo de garantía?",
+        "respuesta": "Escríbenos por WhatsApp con tu comprobante, fotos del producto y una descripción del problema. Gestionamos el caso con el fabricante."
+      },
+      {
+        "pregunta": "¿Necesito guardar el comprobante?",
+        "respuesta": "Sí. La boleta o factura es el documento que acredita la fecha de compra y activa la garantía del fabricante."
+      }
+    ]
+  },
+  {
+    "slug": "quimicos",
+    "grupo": "Químicos",
+    "preguntas": [
+      {
+        "pregunta": "¿Qué grado necesito para ácido sulfúrico?",
+        "respuesta": "Depende de la concentración y la temperatura. Revisa la tabla de compatibilidad química de cada tanque; si tu caso no figura, consulta antes de comprar."
+      },
+      {
+        "pregunta": "¿Qué es la gravedad específica?",
+        "respuesta": "Es cuánto pesa el líquido respecto del agua. El agua tiene 1.0; un líquido de 1.5 pesa 50 % más y necesita un tanque de grado reforzado o superior."
+      },
+      {
+        "pregunta": "¿Puedo guardar agua potable en un tanque que tuvo químicos?",
+        "respuesta": "No. Un tanque que almacenó químicos no debe volver a usarse para agua de consumo humano."
+      },
+      {
+        "pregunta": "¿Qué pasa si mi químico no está en la tabla?",
+        "respuesta": "No lo almacenes sin confirmar. Envíanos el nombre, la concentración y la temperatura por WhatsApp y lo validamos con la tabla del fabricante."
+      }
+    ]
+  }
+]

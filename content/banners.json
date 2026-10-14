@@ -1,0 +1,92 @@
+[
+  {
+    "id": "hero-principal-troyani",
+    "tipo": "slide",
+    "etiqueta": "DISTRIBUIDOR AUTORIZADO ROTOPLAS · TROYANI INVERSIONES",
+    "titulo": "Soluciones confiables en almacenamiento de agua para tu hogar e industria",
+    "descripcion": "Tanques, cisternas, biodigestores y soluciones agroindustriales de 250 a 25,000 litros con garantía Rotoplas y despacho a todo el Perú.",
+    "mostrar_selector_capacidad": true,
+    "highlights": [],
+    "cta_primario": {
+      "label": "Ver catálogo de productos",
+      "href": "/catalogo/"
+    },
+    "cta_secundario": {
+      "label": "Cotizar por WhatsApp",
+      "whatsapp": true
+    },
+    "imagen": {
+      "src": "/productos/tanque-industrial-quimicos.webp",
+      "alt": "Línea de tanques de polietileno Rotoplas para hogar y agroindustria"
+    },
+    "activo": true,
+    "orden": 1
+  },
+  {
+    "id": "destacado-tanques-industriales",
+    "tipo": "slide",
+    "etiqueta": "PRODUCTO MÁS POPULAR · LÍNEA AGROINDUSTRIA",
+    "titulo": "Tanques Industriales de 5,000 L a 25,000 L para agua y químicos",
+    "descripcion": "Fabricados en polietileno 100% virgen de alta densidad en una sola pieza. Almacenan agua, fertilizantes y más de 300 sustancias químicas sin oxidarse ni corroerse.",
+    "mostrar_selector_capacidad": false,
+    "highlights": [
+      "Capacidades: 5,000 L · 10,000 L · 15,000 L · 25,000 L",
+      "Grados según densidad: Estándar (1.20 kg/l), Reforzado (1.50 kg/l) y Doble reforzado (1.90 kg/l)",
+      "Compatible con bridas y válvulas Banjo – USA en polipropileno reforzado"
+    ],
+    "cta_primario": {
+      "label": "Ver tanques industriales",
+      "href": "/productos/tanques-industriales/"
+    },
+    "cta_secundario": {
+      "label": "Cotizar proyecto industrial",
+      "whatsapp": true
+    },
+    "imagen": {
+      "src": "/productos/tanque-industrial-ab.webp",
+      "alt": "Tanques industriales Rotoplas de 5,000 L a 25,000 L para agua y sustancias químicas"
+    },
+    "activo": true,
+    "orden": 2
+  },
+  {
+    "id": "destacado-hogar-tanques-biodigestores",
+    "tipo": "slide",
+    "etiqueta": "PRODUCTOS DESTACADOS · LÍNEA HOGAR",
+    "titulo": "Tanques con garantía de por vida, cisternas y biodigestores",
+    "descripcion": "Sistemas completos de almacenamiento y saneamiento con capa interna antibacterial, filtro de sedimentos y accesorios originales incluidos.",
+    "mostrar_selector_capacidad": false,
+    "highlights": [
+      "Tanques para agua de 250 L a 2,500 L (Garantía de por vida en línea Negra)",
+      "Cisternas subterráneas de 1,200 L a 10,000 L con equipo de bombeo",
+      "Biodigestores autolimpiables de 600 L, 1,300 L, 3,000 L y 7,000 L"
+    ],
+    "cta_primario": {
+      "label": "Ver Línea Hogar",
+      "href": "/catalogo/?linea=hogar"
+    },
+    "cta_secundario": {
+      "label": "Cotizar por WhatsApp",
+      "whatsapp": true
+    },
+    "imagen": {
+      "src": "/productos/tanque-plus-beige.webp",
+      "alt": "Tanque para agua Rotoplas Plus+ Beige con garantía de por vida y equipamiento completo"
+    },
+    "activo": true,
+    "orden": 3
+  },
+  {
+    "id": "poster-campana-ejemplo",
+    "tipo": "poster",
+    "titulo": "Campaña Promocional Troyani Inversiones",
+    "subtitulo": "Reemplaza imagen_desktop por tu afiche en /public/banners/ y cambia activo a true",
+    "imagen_desktop": "/productos/tanque-industrial-quimicos.webp",
+    "imagen_mobile": null,
+    "cta_label": "Cotizar promoción",
+    "href": "/catalogo/",
+    "whatsapp": true,
+    "activo": false,
+    "orden": 4
+  }
+]

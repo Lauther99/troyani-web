@@ -1,0 +1,1297 @@
+[
+  {
+    "slug": "tanques-para-agua",
+    "sku": "DEMO-TQ-PLUS",
+    "tipo": "tanque",
+    "linea": "hogar",
+    "categoria": "tanques-para-agua",
+    "usos": ["agua"],
+    "familia": null,
+    "marca": "rotoplas",
+    "nombre": "Tanques para Agua (Línea Plus+)",
+    "subtitulo": "Nueva Línea de Tanques con diseño único en el mercado, fabricado bajo una nueva tecnología.",
+    "resumen": "Nueva línea de tanques domésticos Plus+ con protección antibacterial Tecnología Expel, Tapa Plus+ y garantía de por vida.",
+    "descripcion": [
+      "Nueva Línea de Tanques con diseño único en el mercado, fabricado bajo una nueva tecnología."
+    ],
+    "beneficios": [
+      "Agua segura con la nueva Tapa Plus+, evita que se desprenda y contamine el agua.",
+      "Cuidado de tu salud con una exclusiva protección antibacterial con Tecnología Expel que reduce la producción de microbios y bacterias.",
+      "Diseño innovador desarrollado por nuestro Centro de Investigación y Desarrollo (CID) el cual está en la búsqueda constante de innovar y evolucionar en soluciones de almacenamiento.",
+      "Facilidad en izaje: cuenta con orejas de sujeción para un mejor manejo durante la instalación."
+    ],
+    "capacidad_l": 1100,
+    "medida_nominal": null,
+    "dimensiones": {
+      "forma": "cilindrica_vertical",
+      "diametro_cm": 115,
+      "largo_cm": null,
+      "ancho_cm": null,
+      "alto_cm": 126,
+      "peso_vacio_kg": null
+    },
+    "capacidades": [
+      {
+        "nombre": "Tanque Plus+ 700L (Beige)",
+        "color": "Beige",
+        "capacidad_l": 700,
+        "altura_cm": 116,
+        "diametro_cm": 97,
+        "garantia": "De por vida"
+      },
+      {
+        "nombre": "Tanque Plus+ 1100L (Beige)",
+        "color": "Beige",
+        "capacidad_l": 1100,
+        "altura_cm": 126,
+        "diametro_cm": 115,
+        "garantia": "De por vida"
+      },
+      {
+        "nombre": "Tanque Plus+ 1500L (Beige)",
+        "color": "Beige",
+        "capacidad_l": 1500,
+        "altura_cm": 143,
+        "diametro_cm": 125,
+        "garantia": "De por vida"
+      },
+      {
+        "nombre": "Tanque Plus+ 2500L (Beige)",
+        "color": "Beige",
+        "capacidad_l": 2500,
+        "altura_cm": 173,
+        "diametro_cm": 145,
+        "garantia": "De por vida"
+      },
+      {
+        "nombre": "Tanque Plus+ 1100L (Negro)",
+        "color": "Negro",
+        "capacidad_l": 1100,
+        "altura_cm": 126,
+        "diametro_cm": 115,
+        "garantia": "10 Años"
+      },
+      {
+        "nombre": "Tanque Plus+ 2500L (Negro)",
+        "color": "Negro",
+        "capacidad_l": 2500,
+        "altura_cm": 173,
+        "diametro_cm": 145,
+        "garantia": "10 Años"
+      }
+    ],
+    "variantes": [
+      {
+        "color": "Beige",
+        "garantia": "De por vida",
+        "imagen": "/productos/tanque-plus-beige.webp",
+        "capacidades": [
+          { "nombre": "Tanque Plus+ 700L", "capacidad_l": 700, "altura_cm": 116, "diametro_cm": 97, "garantia": "De por vida" },
+          { "nombre": "Tanque Plus+ 1100L", "capacidad_l": 1100, "altura_cm": 126, "diametro_cm": 115, "garantia": "De por vida" },
+          { "nombre": "Tanque Plus+ 1500L", "capacidad_l": 1500, "altura_cm": 143, "diametro_cm": 125, "garantia": "De por vida" },
+          { "nombre": "Tanque Plus+ 2500L", "capacidad_l": 2500, "altura_cm": 173, "diametro_cm": 145, "garantia": "De por vida" }
+        ]
+      },
+      {
+        "color": "Negro",
+        "garantia": "10 Años",
+        "imagen": "/productos/tanque-plus-negro.webp",
+        "capacidades": [
+          { "nombre": "Tanque Plus+ 1100L", "capacidad_l": 1100, "altura_cm": 126, "diametro_cm": 115, "garantia": "10 Años" },
+          { "nombre": "Tanque Plus+ 2500L", "capacidad_l": 2500, "altura_cm": 173, "diametro_cm": 145, "garantia": "10 Años" }
+        ]
+      }
+    ],
+    "grado": { "nivel": "estandar", "gravedad_especifica_max": 1.0, "espesor_pared_mm": null },
+    "material": "Polietileno",
+    "certificaciones": [],
+    "compatibilidad_quimica": [],
+    "accesorios": {
+      "incluidos": true,
+      "nota": "Todos los tanques domésticos vienen equipados con sus accesorios.",
+      "imagen": "/productos/tanque-plus-accesorios.webp",
+      "items": [
+        "1. Válvula de Llenado tipo Sin Fin",
+        "2. Multiconector con Válvula Esfera y Tuerca Unión",
+        "3. Flotador No. 5",
+        "4. Jarro de aire",
+        "5. Filtro de sedimentos Estándar"
+      ]
+    },
+    "accesorios_incluidos": [
+      { "nombre": "Válvula de Llenado tipo Sin Fin", "cantidad": 1 },
+      { "nombre": "Multiconector con Válvula Esfera y Tuerca Unión", "cantidad": 1 },
+      { "nombre": "Flotador No. 5", "cantidad": 1 },
+      { "nombre": "Jarro de aire", "cantidad": 1 },
+      { "nombre": "Filtro de sedimentos Estándar", "cantidad": 1 }
+    ],
+    "accesorios_opcionales": [],
+    "compatible_con": null,
+    "instalacion": null,
+    "precio": {
+      "modo": "cotizacion",
+      "cotizacion": true,
+      "pen": null,
+      "incluye_igv": true
+    },
+    "flete": "cotizar",
+    "disponibilidad": { "estado": "stock", "almacen": "Lima", "dias_entrega": null, "actualizado": "2026-10-01" },
+    "garantia": "De por vida (Beige) / 10 Años (Negro)",
+    "garantia_anios": 10,
+    "ficha_pdf": null,
+    "plano_svg": null,
+    "imagen_principal": "/productos/tanque-plus-beige.webp",
+    "galeria": [
+      { "src": "/productos/tanque-plus-beige.webp", "alt": "Tanque para agua Rotoplas Plus+ Beige con accesorios", "tipo": "tecnica" },
+      { "src": "/productos/tanque-plus-negro.webp", "alt": "Tanque para agua Rotoplas Plus+ Negro", "tipo": "uso" },
+      { "src": "/productos/tanque-plus-accesorios.webp", "alt": "Accesorios incluidos en Tanque Plus+ Rotoplas", "tipo": "detalle" }
+    ],
+    "og_image": null,
+    "url_legacy": "https://www.troyaniinversiones.com/tanques-para-agua/",
+    "destacado": true,
+    "mas_popular": true,
+    "publicado": true
+  },
+  {
+    "slug": "cisternas",
+    "sku": "DEMO-CI-HOGAR",
+    "tipo": "cisterna",
+    "linea": "hogar",
+    "categoria": "cisternas",
+    "usos": ["agua"],
+    "familia": null,
+    "marca": "rotoplas",
+    "nombre": "Cisterna para Agua",
+    "subtitulo": "Estructura que va enterrada y sirve para almacenar el agua potable de un edificio o casa.",
+    "resumen": "Estructura que va enterrada y sirve para almacenar el agua potable de un edificio o casa con suministro automático.",
+    "descripcion": [
+      "Estructura que va enterrada y sirve para almacenar el agua potable de un edificio o casa.",
+      "Al instalar una cisterna en un hogar se busca contar con un sistema automático de suministro de agua."
+    ],
+    "beneficios": [
+      "Diseñada para instalarse enterrada y ahorrar espacio en el hogar o edificio.",
+      "Sistema automático de suministro de agua potable.",
+      "Equipada con accesorios originales Rotoplas según capacidad."
+    ],
+    "capacidad_l": 2800,
+    "medida_nominal": null,
+    "dimensiones": {
+      "forma": "cilindrica_vertical",
+      "diametro_cm": 156,
+      "largo_cm": null,
+      "ancho_cm": null,
+      "alto_cm": 178,
+      "peso_vacio_kg": null
+    },
+    "capacidades": [
+      {
+        "capacidad_l": 1200,
+        "diametro_m": 1.10,
+        "altura_m": 1.45,
+        "diametro_cm": 110,
+        "altura_cm": 145,
+        "accesorios_incluidos": ["Válvula de llenado y flotador", "Tubo de succión de 1\"", "Adaptador de ventilación", "Tapa click"]
+      },
+      {
+        "capacidad_l": 2000,
+        "diametro_m": 1.26,
+        "altura_m": 1.84,
+        "diametro_cm": 126,
+        "altura_cm": 184,
+        "accesorios_incluidos": ["Válvula de llenado y flotador", "Tubo de succión de 1\"", "Adaptador de ventilación", "Tapa click"]
+      },
+      {
+        "capacidad_l": 2800,
+        "diametro_m": 1.56,
+        "altura_m": 1.78,
+        "diametro_cm": 156,
+        "altura_cm": 178,
+        "accesorios_incluidos": ["Válvula de llenado y flotador", "Tubo de succión de 1\"", "Adaptador de ventilación", "Tapa click"]
+      },
+      {
+        "capacidad_l": 5000,
+        "diametro_m": 2.22,
+        "altura_m": 1.68,
+        "diametro_cm": 222,
+        "altura_cm": 168,
+        "accesorios_incluidos": ["Tubo de succión", "Tapa click"]
+      },
+      {
+        "capacidad_l": 10000,
+        "diametro_m": 2.20,
+        "altura_m": 3.26,
+        "diametro_cm": 220,
+        "altura_cm": 326,
+        "accesorios_incluidos": ["Tubo de succión", "Tapa click"]
+      }
+    ],
+    "grado": { "nivel": "estandar", "gravedad_especifica_max": 1.0, "espesor_pared_mm": null },
+    "material": "Polietileno",
+    "certificaciones": [],
+    "compatibilidad_quimica": [],
+    "accesorios": {
+      "incluidos": true,
+      "nota": "Las cisternas de 1200, 2000 y 2800 vienen con válvula de llenado y flotador, tubo de succión de 1\", adaptador de ventilación y tapa click. Las cisternas de 5000 y 10000 sólo traen tubo de succión y tapa click.",
+      "imagen": "/productos/cisterna-agua-accesorios.webp",
+      "imagen_complementarios": "/productos/cisterna-agua-complementarios.webp",
+      "items": [
+        "Válvula de llenado",
+        "Tubo de succión de 1\"",
+        "Adaptador para ventilación",
+        "Tapa click"
+      ],
+      "complementarios": [
+        "Electronivel",
+        "Válvula de pie",
+        "Filtro Jumbo",
+        "Cartucho",
+        "Bomba Rotoplas"
+      ]
+    },
+    "accesorios_incluidos": [
+      { "nombre": "Válvula de llenado y flotador (en 1200L, 2000L y 2800L)", "cantidad": 1 },
+      { "nombre": "Tubo de succión de 1\"", "cantidad": 1 },
+      { "nombre": "Adaptador para ventilación (en 1200L, 2000L y 2800L)", "cantidad": 1 },
+      { "nombre": "Tapa click", "cantidad": 1 }
+    ],
+    "accesorios_opcionales": [],
+    "compatible_con": null,
+    "instalacion": null,
+    "precio": {
+      "modo": "cotizacion",
+      "cotizacion": true,
+      "pen": null,
+      "incluye_igv": true
+    },
+    "flete": "cotizar",
+    "disponibilidad": { "estado": "stock", "almacen": "Lima", "dias_entrega": null, "actualizado": "2026-10-01" },
+    "garantia": "10 Años",
+    "garantia_anios": 10,
+    "ficha_pdf": null,
+    "plano_svg": null,
+    "imagen_principal": "/productos/cisterna-agua.webp",
+    "imagen_medidas": "/productos/cisterna-agua-medidas.webp",
+    "galeria": [
+      { "src": "/productos/cisterna-agua.webp", "alt": "Cisterna para agua Rotoplas con accesorios", "tipo": "tecnica" },
+      { "src": "/productos/cisterna-agua-medidas.webp", "alt": "Tabla de capacidades y medidas de Cisternas Rotoplas", "tipo": "detalle" },
+      { "src": "/productos/cisterna-agua-accesorios.webp", "alt": "Accesorios que incluye la Cisterna Rotoplas", "tipo": "uso" }
+    ],
+    "og_image": null,
+    "url_legacy": "https://www.troyaniinversiones.com/cisternas/",
+    "destacado": true,
+    "mas_popular": true,
+    "publicado": true
+  },
+  {
+    "slug": "biodigestores",
+    "sku": "DEMO-BIO-ROTOPLAS",
+    "tipo": "biodigestor",
+    "linea": "hogar",
+    "categoria": "biodigestores",
+    "usos": ["saneamiento"],
+    "familia": null,
+    "marca": "rotoplas",
+    "nombre": "Biodigestor Autolimpiable Rotoplas",
+    "subtitulo": "Ideal para zonas que carecen de una red de desagüe.",
+    "resumen": "Sistema autolimpiable para el tratamiento primario de aguas residuales domésticas en zonas que carecen de red de desagüe.",
+    "descripcion": [
+      "El Biodigestor Autolimpiable Rotoplas es un sistema para el tratamiento primario de las aguas residuales domésticas, mediante un proceso de retención y degradación séptica anaerobia de la materia orgánica.",
+      "El agua tratada es infiltrada hacia el terreno aledaño mediante una zanja de infiltración o pozo de absorción según tipo de terreno y zona. Registro de Productos Industriales Nacionales (RPIN)."
+    ],
+    "aplicaciones": [
+      "Casa de Playa",
+      "Zonas Emergentes",
+      "Hoteles",
+      "Casa de Campo",
+      "Fundos Agrícolas",
+      "Restaurantes",
+      "Campamento minero",
+      "Escuelas"
+    ],
+    "beneficios": [
+      "Ideal para viviendas que no cuenten con red de desagüe.",
+      "Sistema Autolimpiable. Los lodos se extraen al abrir una válvula.",
+      "Resistente. De una sola pieza, evita fugas, olores y agrietamientos.",
+      "Sin costo de mantenimiento. Se realiza la purga de lodos sin necesidad de utilizar equipo especializado.",
+      "No requiere productos químicos. El sistema no necesita aceleradores para generar bacterias.",
+      "Con garantía y respaldo del grupo Rotoplas."
+    ],
+    "capacidad_l": 1300,
+    "medida_nominal": null,
+    "dimensiones": {
+      "forma": "conica",
+      "diametro_cm": 115,
+      "largo_cm": null,
+      "ancho_cm": null,
+      "alto_cm": 196,
+      "peso_vacio_kg": 36
+    },
+    "capacidades": [
+      {
+        "capacidad_l": 600,
+        "peso_kg": 20,
+        "diametro_m": 0.88,
+        "altura_m": 1.63,
+        "diametro_cm": 88,
+        "altura_cm": 163,
+        "cotas": { "A_m": 0.88, "B_m": 1.63, "C_m": 1.07, "D_m": 0.96, "E_m": 0.36, "F_m": 0.24, "G_m": 0.55, "H_m": 0.03, "I_pulg": "4\"", "J_pulg": "2\"", "K_pulg": "2\"", "L_grados": "45°", "M_m": 0.66, "N_m": 0.34 }
+      },
+      {
+        "capacidad_l": 800,
+        "peso_kg": 25,
+        "diametro_m": 0.96,
+        "altura_m": 1.68,
+        "diametro_cm": 96,
+        "altura_cm": 168,
+        "cotas": { "A_m": 0.96, "B_m": 1.68, "C_m": 1.10, "D_m": 1.01, "E_m": 0.33, "F_m": 0.35, "G_m": 0.55, "H_m": 0.03, "I_pulg": "4\"", "J_pulg": "2\"", "K_pulg": "2\"", "L_grados": "45°", "M_m": 0.66, "N_m": 0.34 }
+      },
+      {
+        "capacidad_l": 1300,
+        "peso_kg": 36,
+        "diametro_m": 1.15,
+        "altura_m": 1.96,
+        "diametro_cm": 115,
+        "altura_cm": 196,
+        "cotas": { "A_m": 1.15, "B_m": 1.96, "C_m": 1.27, "D_m": 1.18, "E_m": 0.45, "F_m": 0.24, "G_m": 0.55, "H_m": 0.03, "I_pulg": "4\"", "J_pulg": "2\"", "K_pulg": "2\"", "L_grados": "45°", "M_m": 0.89, "N_m": 0.34 }
+      },
+      {
+        "capacidad_l": 3000,
+        "peso_kg": 140,
+        "diametro_m": 1.46,
+        "altura_m": 2.75,
+        "diametro_cm": 146,
+        "altura_cm": 275,
+        "cotas": { "A_m": 1.46, "B_m": 2.75, "C_m": 1.77, "D_m": 1.54, "E_m": 0.73, "F_m": 0.19, "G_m": 0.55, "H_m": 0.05, "I_pulg": "4\"", "J_pulg": "2\"", "K_pulg": "2\"", "L_grados": "45°", "M_m": 0.89, "N_m": 0.34 }
+      },
+      {
+        "capacidad_l": 7000,
+        "peso_kg": 182,
+        "diametro_m": 2.42,
+        "altura_m": 2.83,
+        "diametro_cm": 242,
+        "altura_cm": 283,
+        "cotas": { "A_m": 2.42, "B_m": 2.83, "C_m": 1.37, "D_m": 1.28, "E_m": 1.16, "F_m": 0.26, "G_m": 0.55, "H_m": 0.10, "I_pulg": "4\"", "J_pulg": "2\"", "K_pulg": "2\"", "L_grados": "45°", "M_m": 0.89, "N_m": 0.34 }
+      }
+    ],
+    "grado": { "nivel": "estandar", "gravedad_especifica_max": 1.0, "espesor_pared_mm": null },
+    "material": "Polietileno",
+    "certificaciones": [],
+    "compatibilidad_quimica": [],
+    "accesorios_incluidos": [],
+    "accesorios_opcionales": [],
+    "compatible_con": null,
+    "instalacion": null,
+    "precio": {
+      "modo": "cotizacion",
+      "cotizacion": true,
+      "pen": null,
+      "incluye_igv": true
+    },
+    "flete": "cotizar",
+    "disponibilidad": { "estado": "stock", "almacen": "Lima", "dias_entrega": null, "actualizado": "2026-10-01" },
+    "garantia": "Garantía y respaldo del grupo Rotoplas",
+    "garantia_anios": 5,
+    "ficha_pdf": null,
+    "plano_svg": null,
+    "imagen_principal": "/productos/biodigestor.webp",
+    "imagen_medidas": "/productos/biodigestor-medidas.webp",
+    "galeria": [
+      { "src": "/productos/biodigestor.webp", "alt": "Biodigestor Autolimpiable Rotoplas", "tipo": "tecnica" },
+      { "src": "/productos/biodigestor-medidas.webp", "alt": "Tabla de dimensiones y pesos de Biodigestores Rotoplas", "tipo": "detalle" }
+    ],
+    "og_image": null,
+    "url_legacy": "https://www.troyaniinversiones.com/biodigestores/",
+    "destacado": true,
+    "mas_popular": true,
+    "publicado": true
+  },
+  {
+    "slug": "bombas",
+    "sku": "DEMO-BOM-TCP",
+    "tipo": "bomba",
+    "linea": "hogar",
+    "categoria": "bombas",
+    "usos": ["agua"],
+    "familia": null,
+    "marca": "rotoplas",
+    "nombre": "Bombas Centrífuga y Periférica",
+    "subtitulo": "Ideal para llenado de tanques donde se requiera mayor caudal o presiones elevadas.",
+    "resumen": "Bombas centrífugas (1/2 HP y 1 HP) y periférica (1/2 HP) silenciosas, resistentes a la intemperie y con 2 años de garantía.",
+    "descripcion": [
+      "La Bomba Centrífuga Rotoplas es ideal para utilizarse en construcciones que requieren un gran caudal de agua. Es útil para todo tipo de servicio doméstico, jardinería y llenado de contenedores. Además, es resistente a la intemperie, gasta poca energía eléctrica, no produce ruido y está garantizada por 2 años contra defectos de fabricación.",
+      "La Bomba Periférica es ideal para construcciones donde se requieran presiones elevadas de agua. Además son resistentes a la intemperie, son de bajo consumo eléctrico, tienen un funcionamiento silencioso y están garantizadas por 2 años."
+    ],
+    "beneficios": [
+      "Sellado perfecto gracias a sus sellos mecánicos de alta duración de carbón, cerámica/buna.",
+      "Impulsor de Noryl, evita la corrosión.",
+      "Funcionamiento silencioso.",
+      "Resistentes a la intemperie gracias a su recubrimiento con pintura horneada.",
+      "Fácil instalación y operación.",
+      "Calidad y garantía Rotoplas."
+    ],
+    "capacidad_l": null,
+    "medida_nominal": "1/2 HP · 1 HP",
+    "dimensiones": null,
+    "modelos": [
+      {
+        "nombre": "Bomba Centrífuga de 1/2 HP",
+        "modelo": "TCP130",
+        "potencia_hp": "1/2 HP (0.5 HP)",
+        "imagen": "/productos/bomba-centrifuga.webp",
+        "especificaciones": {
+          "temperatura_max_liquido": "+40°C",
+          "temperatura_ambiente_max_min": "+40°C/5°C*",
+          "puestas_en_marcha_max_hora": "60 veces/hora",
+          "altura_max_aspiracion_m": 8,
+          "presion_max_ejercicio_bar": 2,
+          "altura_max_descarga_m": 20,
+          "tension_v": "220V",
+          "corriente_max_a": 2.7,
+          "frecuencia_hz": "60Hz",
+          "caudal_max_m3_h": 4.4,
+          "aislamiento": "Clase F",
+          "grado_proteccion": "IP44",
+          "conexion_succion": "1\"",
+          "conexion_descarga": "1\""
+        }
+      },
+      {
+        "nombre": "Bomba Centrífuga de 1 HP",
+        "modelo": "TCP158",
+        "potencia_hp": "1 HP",
+        "imagen": "/productos/bomba-centrifuga.webp",
+        "especificaciones": {
+          "temperatura_max_liquido": "+40°C",
+          "temperatura_ambiente_max_min": "+40°C/5°C*",
+          "puestas_en_marcha_max_hora": "60 veces/hora",
+          "altura_max_aspiracion_m": 8,
+          "presion_max_ejercicio_bar": 3,
+          "altura_max_descarga_m": 30,
+          "tension_v": "220V",
+          "corriente_max_a": 5.8,
+          "frecuencia_hz": "60Hz",
+          "caudal_max_m3_h": 6.0,
+          "aislamiento": "Clase F",
+          "grado_proteccion": "IP44",
+          "conexion_succion": "1\"",
+          "conexion_descarga": "1\""
+        }
+      },
+      {
+        "nombre": "Bomba Periférica de 1/2 HP",
+        "modelo": "Periférica 1/2 HP",
+        "potencia_hp": "1/2 HP",
+        "imagen": "/productos/bomba-periferica.webp",
+        "especificaciones": null
+      }
+    ],
+    "grado": null,
+    "material": "Impulsor de Noryl y sellos mecánicos de carbón, cerámica/buna",
+    "certificaciones": [],
+    "compatibilidad_quimica": [],
+    "accesorios_incluidos": [],
+    "accesorios_opcionales": [],
+    "compatible_con": null,
+    "instalacion": {
+      "base": null,
+      "transporte": null,
+      "restricciones": ["Con temperaturas inferiores a 5 °C vaciar la Bomba Rotoplas para evitar desperfectos o daños causados por el hielo."]
+    },
+    "precio": {
+      "modo": "cotizacion",
+      "cotizacion": true,
+      "pen": null,
+      "incluye_igv": true
+    },
+    "flete": "cotizar",
+    "disponibilidad": { "estado": "stock", "almacen": "Lima", "dias_entrega": null, "actualizado": "2026-10-01" },
+    "garantia": "2 Años",
+    "garantia_anios": 2,
+    "ficha_pdf": null,
+    "plano_svg": null,
+    "imagen_principal": "/productos/bomba-centrifuga.webp",
+    "imagen_medidas": "/productos/bomba-ficha.webp",
+    "galeria": [
+      { "src": "/productos/bomba-centrifuga.webp", "alt": "Bomba Centrífuga Rotoplas", "tipo": "tecnica" },
+      { "src": "/productos/bomba-periferica.webp", "alt": "Bomba Periférica Rotoplas", "tipo": "uso" },
+      { "src": "/productos/bomba-ficha.webp", "alt": "Tabla técnica Bomba Centrífuga TCP130 y TCP158", "tipo": "detalle" },
+      { "src": "/productos/bomba-esquema.webp", "alt": "Esquema de partes de la Bomba Rotoplas", "tipo": "detalle" }
+    ],
+    "og_image": null,
+    "url_legacy": "https://www.troyaniinversiones.com/bombas/",
+    "destacado": false,
+    "mas_popular": false,
+    "publicado": true
+  },
+  {
+    "slug": "filtros-y-purificadores",
+    "sku": "DEMO-PUR-ROTOPLAS",
+    "tipo": "purificador",
+    "linea": "hogar",
+    "categoria": "filtros-y-purificadores",
+    "usos": ["agua"],
+    "familia": null,
+    "marca": "rotoplas",
+    "nombre": "Filtros y Purificadores",
+    "subtitulo": "Sistemas de purificación, alcalinización y ósmosis inversa para el hogar.",
+    "resumen": "Purificador Sobre Tarja, Purificador y Alcalinizador y Purificador de Ósmosis Inversa que retienen el 99.99% de bacterias.",
+    "descripcion": [
+      "Línea de filtros y purificadores Rotoplas diseñados para proveer agua pura, alcalina y libre del 99.99% de bacterias directamente en la cocina del hogar."
+    ],
+    "beneficios": [
+      "Purificador Sobre Tarja: Retiene el 99.99% de bacterias del agua.",
+      "Purificador y Alcalinizador: Hidratación superior que nutre tu cuerpo.",
+      "Purificador de Ósmosis Inversa: Purificación y filtración avanzada."
+    ],
+    "capacidad_l": null,
+    "medida_nominal": "3 modelos",
+    "dimensiones": null,
+    "modelos": [
+      {
+        "nombre": "Purificador Sobre Tarja",
+        "descripcion": "Retiene el 99.99% de bacterias del agua.",
+        "imagen": "/productos/purificador-sobre-tarja.webp"
+      },
+      {
+        "nombre": "Purificador y Alcalinizador",
+        "descripcion": "Hidratación superior que nutre tu cuerpo.",
+        "imagen": "/productos/purificador-alcalinizador.webp"
+      },
+      {
+        "nombre": "Purificador de Ósmosis Inversa",
+        "descripcion": "Purificación & filtración.",
+        "imagen": "/productos/purificador-osmosis-inversa.webp"
+      }
+    ],
+    "grado": null,
+    "material": "Polipropileno / Cartuchos filtrantes Rotoplas",
+    "certificaciones": [],
+    "compatibilidad_quimica": [],
+    "accesorios_incluidos": [],
+    "accesorios_opcionales": [],
+    "compatible_con": null,
+    "instalacion": null,
+    "precio": {
+      "modo": "cotizacion",
+      "cotizacion": true,
+      "pen": null,
+      "incluye_igv": true
+    },
+    "flete": "cotizar",
+    "disponibilidad": { "estado": "stock", "almacen": "Lima", "dias_entrega": null, "actualizado": "2026-10-01" },
+    "garantia": "1 Año",
+    "garantia_anios": 1,
+    "ficha_pdf": null,
+    "plano_svg": null,
+    "imagen_principal": "/productos/purificador-sobre-tarja.webp",
+    "galeria": [
+      { "src": "/productos/purificador-sobre-tarja.webp", "alt": "Purificador Sobre Tarja Rotoplas", "tipo": "tecnica" },
+      { "src": "/productos/purificador-alcalinizador.webp", "alt": "Purificador y Alcalinizador Rotoplas", "tipo": "uso" },
+      { "src": "/productos/purificador-osmosis-inversa.webp", "alt": "Purificador de Ósmosis Inversa Rotoplas", "tipo": "detalle" }
+    ],
+    "og_image": null,
+    "url_legacy": "https://www.troyaniinversiones.com/filtros-y-purificadores/",
+    "destacado": false,
+    "mas_popular": false,
+    "publicado": true
+  },
+  {
+    "slug": "termas",
+    "sku": "DEMO-TER-ROTOPLAS",
+    "tipo": "terma",
+    "linea": "hogar",
+    "categoria": "termas",
+    "usos": ["agua"],
+    "familia": null,
+    "marca": "rotoplas",
+    "nombre": "Termas Rotoplas",
+    "subtitulo": "Calentadores de agua Express, Ducha eléctrica y Duraterma.",
+    "resumen": "Línea de termas y duchas eléctricas Rotoplas: modelos Express, Ducha eléctrica y Duraterma para el hogar.",
+    "descripcion": [
+      "Soluciones de calentamiento de agua Rotoplas en sus presentaciones Express, Ducha eléctrica y Duraterma."
+    ],
+    "beneficios": [
+      "Modelos Express, Ducha eléctrica y Duraterma.",
+      "Fácil instalación y respaldo de marca Rotoplas."
+    ],
+    "capacidad_l": null,
+    "medida_nominal": "3 modelos",
+    "dimensiones": null,
+    "modelos": [
+      {
+        "nombre": "Express",
+        "imagen": "/productos/terma-express.png"
+      },
+      {
+        "nombre": "Ducha eléctrica",
+        "imagen": "/productos/ducha-electrica.png"
+      },
+      {
+        "nombre": "Duraterma",
+        "imagen": "/productos/duraterma.png"
+      }
+    ],
+    "grado": null,
+    "material": "Termoplástico de alta resistencia",
+    "certificaciones": [],
+    "compatibilidad_quimica": [],
+    "accesorios_incluidos": [],
+    "accesorios_opcionales": [],
+    "compatible_con": null,
+    "instalacion": null,
+    "precio": {
+      "modo": "cotizacion",
+      "cotizacion": true,
+      "pen": null,
+      "incluye_igv": true
+    },
+    "flete": "cotizar",
+    "disponibilidad": { "estado": "stock", "almacen": "Lima", "dias_entrega": null, "actualizado": "2026-10-01" },
+    "garantia": "2 Años",
+    "garantia_anios": 2,
+    "ficha_pdf": null,
+    "plano_svg": null,
+    "imagen_principal": "/productos/terma-express.png",
+    "galeria": [
+      { "src": "/productos/terma-express.png", "alt": "Terma Rotoplas Express", "tipo": "tecnica" },
+      { "src": "/productos/ducha-electrica.png", "alt": "Ducha eléctrica Rotoplas", "tipo": "uso" },
+      { "src": "/productos/duraterma.png", "alt": "Duraterma Rotoplas", "tipo": "detalle" }
+    ],
+    "og_image": null,
+    "url_legacy": "https://www.troyaniinversiones.com/termas/",
+    "destacado": false,
+    "mas_popular": false,
+    "publicado": true
+  },
+  {
+    "slug": "tanques-industriales",
+    "sku": "DEMO-TQI-IND",
+    "tipo": "tanque",
+    "linea": "agroindustria",
+    "categoria": "tanques-industriales",
+    "usos": ["agua", "quimicos", "agro"],
+    "familia": null,
+    "marca": "rotoplas",
+    "nombre": "Tanques Industriales (Agua Potable AB y Químicos)",
+    "subtitulo": "Para agua potable con capa antibacterial (AB) y para almacenamiento de más de 300 sustancias químicas.",
+    "resumen": "Tanques industriales de 5,000 L a 25,000 L en polietileno 100% virgen para agua potable (AB) y sustancias químicas en grados Estándar, Reforzado y Doble reforzado.",
+    "descripcion": [
+      "Tanques industriales para agua potable con capa antibacterial certificada (AB) y para el almacenamiento seguro de más de 300 sustancias químicas.",
+      "Fabricados con polietileno de alta densidad 100% virgen, disponibles en versión Estándar (1.00 a 1.20 kg/l), Reforzado (1.21 a 1.50 kg/l) y Doble reforzado (1.51 a 1.90 kg/l) dependiendo de la densidad del químico a almacenar."
+    ],
+    "beneficios": [
+      "Fabricado con Polietileno: de alta densidad 100% virgen.",
+      "De fácil limpieza y mantenimiento: no requiere maquinaria especializada.",
+      "Protección antibacterial certificada (AB): reduce la proliferación de bacterias (en versión agua potable).",
+      "Ideales para almacenar: más de 300 sustancias químicas (en versión industrial).",
+      "Tanques reforzados y doble reforzados: dependiendo el químico a almacenar.",
+      "No generan color, olor, ni sabor: manteniendo las propiedades físicas y químicas de los productos.",
+      "Bajo prueba de laboratorio: resiste temperaturas ambientales extremas.",
+      "No se oxidan ni se corroen: evitando fugas y contaminación al producto."
+    ],
+    "grados_densidad": [
+      { "densidad_kg_l": "de 1.00 a 1.20", "tipo_tanque": "Estándar" },
+      { "densidad_kg_l": "de 1.21 a 1.50", "tipo_tanque": "Reforzado" },
+      { "densidad_kg_l": "de 1.51 a 1.90", "tipo_tanque": "Doble reforzado" }
+    ],
+    "capacidad_l": 10000,
+    "medida_nominal": null,
+    "dimensiones": {
+      "forma": "cilindrica_vertical",
+      "diametro_cm": 220,
+      "largo_cm": null,
+      "ancho_cm": null,
+      "alto_cm": 320,
+      "peso_vacio_kg": 210
+    },
+    "capacidades": [
+      {
+        "capacidad_l": 5000,
+        "altura_m": 1.80,
+        "diametro_m": 2.20,
+        "altura_cm": 180,
+        "diametro_cm": 220,
+        "peso_kg": 90,
+        "tolerancia_cm": "+/-2"
+      },
+      {
+        "capacidad_l": 10000,
+        "altura_m": 3.20,
+        "diametro_m": 2.20,
+        "altura_cm": 320,
+        "diametro_cm": 220,
+        "peso_kg": 210,
+        "tolerancia_cm": "+/-2"
+      },
+      {
+        "capacidad_l": 15000,
+        "altura_m": 3.75,
+        "diametro_m": 2.40,
+        "altura_cm": 375,
+        "diametro_cm": 240,
+        "peso_kg": 340,
+        "tolerancia_cm": "+/-2"
+      },
+      {
+        "capacidad_l": 25000,
+        "altura_m": 3.90,
+        "diametro_m": 3.00,
+        "altura_cm": 390,
+        "diametro_cm": 300,
+        "peso_kg": 500,
+        "tolerancia_cm": "+/-2"
+      }
+    ],
+    "grado": { "nivel": "reforzado", "gravedad_especifica_max": 1.9, "espesor_pared_mm": null },
+    "material": "Polietileno de alta densidad 100% virgen",
+    "certificaciones": [],
+    "compatibilidad_quimica": [],
+    "accesorios": {
+      "incluidos": false,
+      "nota": "Los accesorios no vienen incluidos en el Tanque. Consultar por los accesorios teniendo en cuenta la aplicación de almacenamiento. Para los accesorios se debe realizar una verificación y mantenimiento de su estado al menos una vez al año.",
+      "imagen": "/productos/tanque-industrial-ab-accesorios.webp",
+      "items": [
+        "Conexión hexagonal con empaque EPDM o Viton",
+        "Niple corto de polipropileno",
+        "Válvula Full Port",
+        "Tubo de aireación tipo bastón",
+        "Válvula y flotador"
+      ]
+    },
+    "accesorios_incluidos": [],
+    "accesorios_opcionales": ["accesorios-banjo"],
+    "compatible_con": null,
+    "instalacion": null,
+    "precio": {
+      "modo": "cotizacion",
+      "cotizacion": true,
+      "pen": null,
+      "incluye_igv": true
+    },
+    "flete": "cotizar",
+    "disponibilidad": { "estado": "stock", "almacen": "Lima", "dias_entrega": null, "actualizado": "2026-10-01" },
+    "garantia": "5 Años",
+    "garantia_anios": 5,
+    "ficha_pdf": null,
+    "plano_svg": null,
+    "imagen_principal": "/productos/tanque-industrial-ab.webp",
+    "imagen_medidas": "/productos/tanque-industrial-ab-medidas.webp",
+    "imagen_densidades": "/productos/tanque-industrial-densidades.webp",
+    "galeria": [
+      { "src": "/productos/tanque-industrial-ab.webp", "alt": "Tanque Industrial Rotoplas para agua potable AB", "tipo": "tecnica" },
+      { "src": "/productos/tanque-industrial-quimicos.webp", "alt": "Línea de Tanques Industriales Rotoplas para químicos", "tipo": "uso" },
+      { "src": "/productos/tanque-industrial-ab-medidas.webp", "alt": "Tabla de capacidades y pesos de Tanques Industriales", "tipo": "detalle" },
+      { "src": "/productos/tanque-industrial-densidades.webp", "alt": "Tabla de grados de tanque según densidad del químico", "tipo": "detalle" }
+    ],
+    "og_image": null,
+    "url_legacy": "https://www.troyaniinversiones.com/tanques-industriales/",
+    "destacado": true,
+    "mas_popular": true,
+    "publicado": true
+  },
+  {
+    "slug": "nodriza-industrial",
+    "sku": "DEMO-NOD-ROTOPLAS",
+    "tipo": "nodriza",
+    "linea": "agroindustria",
+    "categoria": "nodriza-industrial",
+    "usos": ["agua", "quimicos", "agro"],
+    "familia": null,
+    "marca": "rotoplas",
+    "nombre": "Nodriza Industrial",
+    "subtitulo": "Ideal para transportar agua, fertilizantes y otras sustancias químicas.",
+    "resumen": "Tanque horizontal con sistema interno rompe olas y fijación de anclaje para transporte de agua, fertilizantes y químicos.",
+    "descripcion": [
+      "Nodriza industrial fabricada con polietileno de alta densidad 100% virgen, ideal para transportar agua, fertilizantes y más de 300 sustancias químicas con estabilidad."
+    ],
+    "beneficios": [
+      "Fabricado con Polietileno: de alta densidad 100% virgen.",
+      "Ideales para almacenar: más de 300 sustancias químicas.",
+      "No generan color, olor, ni sabor: mantiene las propiedades físicas y químicas de los productos.",
+      "Posee un sistema interno de rompe olas: que permite la estabilidad del producto almacenado.",
+      "Posee un sistema de fijación: anclaje para su estabilidad al ser transportado.",
+      "No se oxidan ni se corroen: evitando fugas y contaminación al producto."
+    ],
+    "capacidad_l": 2850,
+    "medida_nominal": null,
+    "dimensiones": {
+      "forma": "cilindrica_horizontal",
+      "diametro_cm": 125,
+      "largo_cm": 265,
+      "ancho_cm": null,
+      "alto_cm": 136,
+      "peso_vacio_kg": null
+    },
+    "capacidades": [
+      {
+        "capacidad_l": 1100,
+        "largo_m": 1.41,
+        "altura_m": 1.05,
+        "diametro_m": 1.00,
+        "largo_cm": 141,
+        "altura_cm": 105,
+        "diametro_cm": 100,
+        "tolerancia_cm": "+/-2"
+      },
+      {
+        "capacidad_l": 2850,
+        "largo_m": 2.65,
+        "altura_m": 1.36,
+        "diametro_m": 1.25,
+        "largo_cm": 265,
+        "altura_cm": 136,
+        "diametro_cm": 125,
+        "tolerancia_cm": "+/-2"
+      },
+      {
+        "capacidad_l": 5000,
+        "largo_m": 3.68,
+        "altura_m": 1.50,
+        "diametro_m": 1.39,
+        "largo_cm": 368,
+        "altura_cm": 150,
+        "diametro_cm": 139,
+        "tolerancia_cm": "+/-2"
+      }
+    ],
+    "grado": { "nivel": "reforzado", "gravedad_especifica_max": 1.5, "espesor_pared_mm": null },
+    "material": "Polietileno de alta densidad 100% virgen",
+    "certificaciones": [],
+    "compatibilidad_quimica": [],
+    "accesorios": {
+      "incluidos": false,
+      "nota": "Los accesorios no vienen incluidos en el Tanque. Consultar por los accesorios teniendo en cuenta la aplicación de almacenamiento. Para los accesorios se debe realizar una verificación y mantenimiento de su estado al menos una vez al año.",
+      "imagen": "/productos/nodriza-industrial-accesorios.webp",
+      "items": [
+        "Conexión hexagonal con empaque EPDM o Viton",
+        "Niple corto de polipropileno",
+        "Válvula Full Port"
+      ]
+    },
+    "accesorios_incluidos": [],
+    "accesorios_opcionales": ["accesorios-banjo"],
+    "compatible_con": null,
+    "instalacion": null,
+    "precio": {
+      "modo": "cotizacion",
+      "cotizacion": true,
+      "pen": null,
+      "incluye_igv": true
+    },
+    "flete": "cotizar",
+    "disponibilidad": { "estado": "stock", "almacen": "Lima", "dias_entrega": null, "actualizado": "2026-10-01" },
+    "garantia": "5 Años",
+    "garantia_anios": 5,
+    "ficha_pdf": null,
+    "plano_svg": null,
+    "imagen_principal": "/productos/nodriza-industrial.webp",
+    "imagen_medidas": "/productos/nodriza-industrial-medidas.webp",
+    "galeria": [
+      { "src": "/productos/nodriza-industrial.webp", "alt": "Nodriza Industrial Rotoplas", "tipo": "tecnica" },
+      { "src": "/productos/nodriza-industrial-medidas.webp", "alt": "Tabla de capacidades y medidas de Nodriza Industrial", "tipo": "detalle" },
+      { "src": "/productos/nodriza-industrial-accesorios.webp", "alt": "Accesorios para Nodriza Industrial", "tipo": "uso" }
+    ],
+    "og_image": null,
+    "url_legacy": "https://www.troyaniinversiones.com/nodriza-industrial/",
+    "destacado": false,
+    "mas_popular": false,
+    "publicado": true
+  },
+  {
+    "slug": "tolvas",
+    "sku": "DEMO-TO-IND",
+    "tipo": "tolva",
+    "linea": "agroindustria",
+    "categoria": "tolvas",
+    "usos": ["agua", "quimicos", "agro"],
+    "familia": null,
+    "marca": "rotoplas",
+    "nombre": "Tolvas Industriales",
+    "subtitulo": "Para almacenamiento y dosificación de agua, alimentos y sustancias químicas.",
+    "resumen": "Tolvas industriales de fondo cónico de 600 L a 7,000 L que permiten el vaciado total del producto y sedimentación de sólidos.",
+    "descripcion": [
+      "Tolvas industriales de polietileno de alta densidad 100% virgen con fondo cónico para almacenamiento, sedimentación de sólidos y dosificación total de agua, alimentos y sustancias químicas."
+    ],
+    "beneficios": [
+      "Fabricado con Polietileno: de alta densidad 100% virgen.",
+      "No generan color, olor, ni sabor: mantiene las propiedades físicas y químicas de los productos.",
+      "Fondo cónico: permite el vaciado total del producto.",
+      "Sedimenta sólidos: suspendidos en líquidos.",
+      "Facilidad de transportar: instalar, limpieza y mantenimiento.",
+      "No se oxidan ni se corroen: evitando fugas y contaminación al producto."
+    ],
+    "capacidad_l": 1300,
+    "medida_nominal": null,
+    "dimensiones": {
+      "forma": "conica",
+      "diametro_cm": 115,
+      "largo_cm": null,
+      "ancho_cm": null,
+      "alto_cm": 196,
+      "peso_vacio_kg": null
+    },
+    "capacidades": [
+      {
+        "capacidad_l": 600,
+        "altura_m": 1.64,
+        "diametro_m": 0.85,
+        "altura_cm": 164,
+        "diametro_cm": 85,
+        "tolerancia_cm": "+/-2"
+      },
+      {
+        "capacidad_l": 1300,
+        "altura_m": 1.96,
+        "diametro_m": 1.15,
+        "altura_cm": 196,
+        "diametro_cm": 115,
+        "tolerancia_cm": "+/-2"
+      },
+      {
+        "capacidad_l": 3000,
+        "altura_m": 2.67,
+        "diametro_m": 1.45,
+        "altura_cm": 267,
+        "diametro_cm": 145,
+        "tolerancia_cm": "+/-2"
+      },
+      {
+        "capacidad_l": 7000,
+        "altura_m": 2.75,
+        "diametro_m": 2.38,
+        "altura_cm": 275,
+        "diametro_cm": 238,
+        "tolerancia_cm": "+/-2"
+      }
+    ],
+    "grado": { "nivel": "reforzado", "gravedad_especifica_max": 1.5, "espesor_pared_mm": null },
+    "material": "Polietileno de alta densidad 100% virgen",
+    "certificaciones": [],
+    "compatibilidad_quimica": [],
+    "accesorios": {
+      "incluidos": false,
+      "nota": "Los accesorios no vienen incluidos en el Tanque. Consultar por los accesorios teniendo en cuenta la aplicación de almacenamiento. Para los accesorios se debe realizar una verificación y mantenimiento de su estado al menos una vez al año.",
+      "imagen": "/productos/tolva-industrial-accesorios.png",
+      "items": [
+        "Conexión hexagonal con empaque EPDM o Viton",
+        "Niple corto de polipropileno",
+        "Válvula Full Port",
+        "Brida de drenaje"
+      ]
+    },
+    "accesorios_incluidos": [],
+    "accesorios_opcionales": ["accesorios-banjo"],
+    "compatible_con": null,
+    "instalacion": null,
+    "precio": {
+      "modo": "cotizacion",
+      "cotizacion": true,
+      "pen": null,
+      "incluye_igv": true
+    },
+    "flete": "cotizar",
+    "disponibilidad": { "estado": "stock", "almacen": "Lima", "dias_entrega": null, "actualizado": "2026-10-01" },
+    "garantia": "3 Años",
+    "garantia_anios": 3,
+    "ficha_pdf": null,
+    "plano_svg": null,
+    "imagen_principal": "/productos/tolva-industrial.webp",
+    "imagen_medidas": "/productos/tolva-industrial-medidas.webp",
+    "galeria": [
+      { "src": "/productos/tolva-industrial.webp", "alt": "Tolva Industrial Cónica Rotoplas", "tipo": "tecnica" },
+      { "src": "/productos/tolva-industrial-medidas.webp", "alt": "Tabla de capacidades y medidas de Tolvas Industriales", "tipo": "detalle" },
+      { "src": "/productos/tolva-industrial-accesorios.png", "alt": "Accesorios para Tolvas Industriales", "tipo": "uso" }
+    ],
+    "og_image": null,
+    "url_legacy": "https://www.troyaniinversiones.com/tolvas/",
+    "destacado": false,
+    "mas_popular": false,
+    "publicado": true
+  },
+  {
+    "slug": "cisterna-industrial",
+    "sku": "DEMO-CI-IND",
+    "tipo": "cisterna",
+    "linea": "agroindustria",
+    "categoria": "cisterna-industrial",
+    "usos": ["agua", "quimicos", "agro"],
+    "familia": null,
+    "marca": "rotoplas",
+    "nombre": "Cisterna Industrial",
+    "subtitulo": "Diseñada para ser instalada bajo tierra.",
+    "resumen": "Cisterna industrial subterránea con aros de refuerzo y capa antibacterial AB, apta para agua y más de 300 sustancias químicas.",
+    "descripcion": [
+      "Cisterna industrial diseñada para ser instalada bajo tierra, fabricada con polietileno de alta densidad 100% virgen y equipada con aros de refuerzo para mayor estabilidad."
+    ],
+    "beneficios": [
+      "Fabricado con Polietileno: de alta densidad 100% virgen.",
+      "Ideales para almacenar: más de 300 sustancias químicas.",
+      "Protección antibacterial certificada (AB): reduce la proliferación de bacterias.",
+      "Posee aros de refuerzo: para mayor estabilidad.",
+      "No se agrieta ni se fisura: como las cisternas de concreto.",
+      "No se oxidan ni se corroen: evitando fugas y contaminación al producto."
+    ],
+    "capacidad_l": 5000,
+    "medida_nominal": null,
+    "dimensiones": {
+      "forma": "cilindrica_vertical",
+      "diametro_cm": 222,
+      "largo_cm": null,
+      "ancho_cm": null,
+      "alto_cm": 168,
+      "peso_vacio_kg": null
+    },
+    "capacidades": [
+      {
+        "capacidad_l": 2800,
+        "altura_m": 1.84,
+        "diametro_m": 1.56,
+        "altura_cm": 184,
+        "diametro_cm": 156,
+        "tolerancia_cm": "+/-2"
+      },
+      {
+        "capacidad_l": 5000,
+        "altura_m": 1.68,
+        "diametro_m": 2.22,
+        "altura_cm": 168,
+        "diametro_cm": 222,
+        "tolerancia_cm": "+/-2"
+      },
+      {
+        "capacidad_l": 10000,
+        "altura_m": 3.26,
+        "diametro_m": 2.20,
+        "altura_cm": 326,
+        "diametro_cm": 220,
+        "tolerancia_cm": "+/-2"
+      }
+    ],
+    "grado": { "nivel": "reforzado", "gravedad_especifica_max": 1.5, "espesor_pared_mm": null },
+    "material": "Polietileno de alta densidad 100% virgen",
+    "certificaciones": [],
+    "compatibilidad_quimica": [],
+    "accesorios": {
+      "incluidos": false,
+      "nota": "Los accesorios no vienen incluidos en el Tanque. Consultar por los accesorios teniendo en cuenta la aplicación de almacenamiento. Para los accesorios se debe realizar una verificación y mantenimiento de su estado al menos una vez al año.",
+      "imagen": "/productos/nodriza-industrial-accesorios.webp",
+      "items": [
+        "Conexión hexagonal con empaque EPDM o Viton",
+        "Niple corto de polipropileno",
+        "Válvula Full Port"
+      ]
+    },
+    "accesorios_incluidos": [],
+    "accesorios_opcionales": ["accesorios-banjo"],
+    "compatible_con": null,
+    "instalacion": null,
+    "precio": {
+      "modo": "cotizacion",
+      "cotizacion": true,
+      "pen": null,
+      "incluye_igv": true
+    },
+    "flete": "cotizar",
+    "disponibilidad": { "estado": "stock", "almacen": "Lima", "dias_entrega": null, "actualizado": "2026-10-01" },
+    "garantia": "10 Años",
+    "garantia_anios": 10,
+    "ficha_pdf": null,
+    "plano_svg": null,
+    "imagen_principal": "/productos/cisterna-industrial.webp",
+    "imagen_medidas": "/productos/cisterna-industrial-medidas.webp",
+    "galeria": [
+      { "src": "/productos/cisterna-industrial.webp", "alt": "Cisterna Industrial Rotoplas", "tipo": "tecnica" },
+      { "src": "/productos/cisterna-industrial-medidas.webp", "alt": "Tabla de capacidades y medidas de Cisterna Industrial", "tipo": "detalle" }
+    ],
+    "og_image": null,
+    "url_legacy": "https://www.troyaniinversiones.com/cisterna-industrial/",
+    "destacado": false,
+    "mas_popular": false,
+    "publicado": true
+  },
+  {
+    "slug": "tanques-para-pisco-y-vino",
+    "sku": "DEMO-TQ-PISCO",
+    "tipo": "tanque",
+    "linea": "agroindustria",
+    "categoria": "tanques-para-pisco-y-vino",
+    "usos": ["agro"],
+    "familia": null,
+    "marca": "rotoplas",
+    "nombre": "Tanques para Pisco y Vino",
+    "subtitulo": "Conservan las características organolépticas del producto.",
+    "resumen": "Tanques de 250 L a 25,000 L que resisten hasta 100° de alcohol y conservan las propiedades organolépticas de pisco, vino y macerados.",
+    "descripcion": [
+      "Tanques fabricados con polietileno de alta densidad 100% virgen diseñados para conservar las características organolépticas de pisco, vino, macerados, agave y otros licores."
+    ],
+    "beneficios": [
+      "Fabricado con Polietileno: de alta densidad 100% virgen.",
+      "Resiste a 100° de alcohol: pisco, vino, macerados, agave y otros licores.",
+      "Indicador referencial de capacidad: en galones y litros.",
+      "Posee aros de refuerzo: para mayor estabilidad.",
+      "No generan olor, color ni sabor: manteniendo las propiedades físicas y químicas de los productos.",
+      "No se oxidan ni se corroen: evitando fugas y contaminación al producto."
+    ],
+    "capacidad_l": 2500,
+    "medida_nominal": null,
+    "dimensiones": {
+      "forma": "cilindrica_vertical",
+      "diametro_cm": 155,
+      "largo_cm": null,
+      "ancho_cm": null,
+      "alto_cm": 165,
+      "peso_vacio_kg": null
+    },
+    "capacidades": [
+      { "capacidad_l": 250, "altura_m": 0.78, "diametro_m": 0.70, "altura_cm": 78, "diametro_cm": 70, "tolerancia_cm": "+/-2" },
+      { "capacidad_l": 750, "altura_m": 1.05, "diametro_m": 1.10, "altura_cm": 105, "diametro_cm": 110, "tolerancia_cm": "+/-2" },
+      { "capacidad_l": 1100, "altura_m": 1.43, "diametro_m": 1.10, "altura_cm": 143, "diametro_cm": 110, "tolerancia_cm": "+/-2" },
+      { "capacidad_l": 2500, "altura_m": 1.65, "diametro_m": 1.55, "altura_cm": 165, "diametro_cm": 155, "tolerancia_cm": "+/-2" },
+      { "capacidad_l": 5000, "altura_m": 1.82, "diametro_m": 2.20, "altura_cm": 182, "diametro_cm": 220, "tolerancia_cm": "+/-2" },
+      { "capacidad_l": 10000, "altura_m": 3.21, "diametro_m": 2.20, "altura_cm": 321, "diametro_cm": 220, "tolerancia_cm": "+/-2" },
+      { "capacidad_l": 15000, "altura_m": 3.79, "diametro_m": 2.46, "altura_cm": 379, "diametro_cm": 246, "tolerancia_cm": "+/-2" },
+      { "capacidad_l": 25000, "altura_m": 3.90, "diametro_m": 3.00, "altura_cm": 390, "diametro_cm": 300, "tolerancia_cm": "+/-2" }
+    ],
+    "grado": { "nivel": "estandar", "gravedad_especifica_max": 1.2, "espesor_pared_mm": null },
+    "material": "Polietileno de alta densidad 100% virgen",
+    "certificaciones": [],
+    "compatibilidad_quimica": [],
+    "accesorios": {
+      "incluidos": false,
+      "nota": "Los accesorios no vienen incluidos en el Tanque. Consultar por los accesorios teniendo en cuenta la aplicación de almacenamiento. Para los accesorios se debe realizar una verificación y mantenimiento de su estado al menos una vez al año.",
+      "imagen": "/productos/tolva-industrial-accesorios.png",
+      "items": [
+        "Conexión hexagonal con empaque EPDM o Viton",
+        "Niple corto de polipropileno",
+        "Válvula Full Port",
+        "Brida de drenaje"
+      ]
+    },
+    "accesorios_incluidos": [],
+    "accesorios_opcionales": ["accesorios-banjo"],
+    "compatible_con": null,
+    "instalacion": null,
+    "precio": {
+      "modo": "cotizacion",
+      "cotizacion": true,
+      "pen": null,
+      "incluye_igv": true
+    },
+    "flete": "cotizar",
+    "disponibilidad": { "estado": "stock", "almacen": "Lima", "dias_entrega": null, "actualizado": "2026-10-01" },
+    "garantia": "5 Años",
+    "garantia_anios": 5,
+    "ficha_pdf": null,
+    "plano_svg": null,
+    "imagen_principal": "/productos/tanque-pisco-vino.webp",
+    "imagen_medidas": "/productos/tanque-pisco-vino-medidas.webp",
+    "galeria": [
+      { "src": "/productos/tanque-pisco-vino.webp", "alt": "Tanque para Pisco y Vino Rotoplas Industrial", "tipo": "tecnica" },
+      { "src": "/productos/tanque-pisco-vino-medidas.webp", "alt": "Tabla de capacidades y medidas de Tanques para Pisco y Vino", "tipo": "detalle" },
+      { "src": "/productos/tolva-industrial-accesorios.png", "alt": "Accesorios para Tanques de Pisco y Vino", "tipo": "uso" }
+    ],
+    "og_image": null,
+    "url_legacy": "https://www.troyaniinversiones.com/tanques-para-pisco-y-vino/",
+    "destacado": true,
+    "mas_popular": true,
+    "publicado": true
+  },
+  {
+    "slug": "accesorios-banjo",
+    "sku": "DEMO-ACC-BANJO",
+    "tipo": "accesorio",
+    "linea": "agroindustria",
+    "categoria": "accesorios-banjo",
+    "usos": ["agua", "quimicos", "agro"],
+    "familia": null,
+    "marca": "banjo",
+    "nombre": "Accesorios para Tanques Industriales Banjo – USA",
+    "subtitulo": "Solución integral para la carga y descarga de diversas sustancias en tanques industriales bajo la línea de accesorios Banjo – USA.",
+    "resumen": "Conexiones hexagonales EPDM/Viton, niples cortos, válvulas Full Port, tubos de aireación y válvulas flotador de 1\" a 4\".",
+    "descripcion": [
+      "Solución integral para la carga y descarga de diversas sustancias en tanques industriales bajo la línea de accesorios Banjo – USA."
+    ],
+    "beneficios": [
+      "Fabricados en polipropileno reforzado con fibra de vidrio, PVC y aleación bronce/cobre.",
+      "Pernos de acero inoxidable y bujes autolubricantes de PTFE en válvulas Full Port.",
+      "Alta resistencia a la presión (hasta 150 PSI a 21°C en niples y válvulas)."
+    ],
+    "capacidad_l": null,
+    "medida_nominal": "1\" a 4\"",
+    "dimensiones": null,
+    "items_accesorios": [
+      {
+        "nombre": "Conexión Hexagonal con empaque EPDM/VITON",
+        "funcion": "Para la salida de fluidos.",
+        "medidas_comercializadas": "EPDM: 2\", 3\" y 4\"; VITON: 1\", 2\", 3\" y 4\"",
+        "material": "Polipropileno reforzado con fibra de vidrio.",
+        "garantia": "1 año de garantía para empaquetadura.",
+        "imagen": "/productos/banjo-conexion-hexagonal.webp"
+      },
+      {
+        "nombre": "Niple corto",
+        "funcion": "Para conectar la válvula de paso y la conexión. Rosca tipo NPT con ajustes antihorarios.",
+        "medidas_comercializadas": "1\", 2\", 3\" y 4\"",
+        "material": "Polipropileno reforzado con fibra de vidrio.",
+        "presion_max": "de 150 PSI a 21°C y 75 PSI a 65°C.",
+        "imagen": "/productos/banjo-niple-corto.webp"
+      },
+      {
+        "nombre": "Válvula de paso Full Port",
+        "funcion": "Controla la salida del fluido. Pernos de acero inoxidable. Bujes de vástago autolubricantes de PTFE.",
+        "medidas_comercializadas": "2\", 3\" y 4\"",
+        "material": "Polipropileno reforzado con fibra de vidrio.",
+        "presion_max": "de 150 PSI a 21°C y 75 PSI a 65°C.",
+        "imagen": "/productos/banjo-valvula-full-port.webp"
+      },
+      {
+        "nombre": "Tubo de aireación tipo bastón de 2\"",
+        "funcion": "Tubo de aireación enroscado a conexión termofusionada en la parte central de la cúpula del tanque que sirve para descargar los gases y vapores de los compuestos almacenados, su forma curva evita la contaminación por caída de agentes externos.",
+        "medidas_comercializadas": "2\"",
+        "material": "PVC",
+        "imagen": "/productos/banjo-tubo-aireacion.webp"
+      },
+      {
+        "nombre": "Válvula Flotador de 2\"",
+        "funcion": "Para controlar el ingreso del líquido y mantenerlo en un nivel adecuado.",
+        "medidas_comercializadas": "2\"",
+        "material": "Fundido en una proporción de 70% en bronce y 30% en cobre. Perno Stovebolt de acero inoxidable. Boya de PVC de 8\".",
+        "especificaciones": "Empaquetadura de 1/4 de espesor. 250 lb de presión. Peso de válvula 1200 gr.",
+        "imagen": "/productos/banjo-valvula-flotador.webp"
+      }
+    ],
+    "grado": null,
+    "material": "Polipropileno reforzado con fibra de vidrio / PVC / Bronce y Cobre",
+    "certificaciones": [],
+    "compatibilidad_quimica": [],
+    "accesorios_incluidos": [],
+    "accesorios_opcionales": [],
+    "compatible_con": { "capacidad_max_l": 25000 },
+    "instalacion": null,
+    "precio": {
+      "modo": "cotizacion",
+      "cotizacion": true,
+      "pen": null,
+      "incluye_igv": true
+    },
+    "flete": "cotizar",
+    "disponibilidad": { "estado": "stock", "almacen": "Lima", "dias_entrega": null, "actualizado": "2026-10-01" },
+    "garantia": "1 Año",
+    "garantia_anios": 1,
+    "ficha_pdf": null,
+    "plano_svg": null,
+    "imagen_principal": "/productos/banjo-valvula-full-port.webp",
+    "galeria": [
+      { "src": "/productos/banjo-valvula-full-port.webp", "alt": "Válvula de paso Full Port Banjo USA", "tipo": "tecnica" },
+      { "src": "/productos/banjo-conexion-hexagonal.webp", "alt": "Conexión Hexagonal con empaque EPDM/Viton Banjo", "tipo": "detalle" },
+      { "src": "/productos/banjo-niple-corto.webp", "alt": "Niple corto de polipropileno Banjo", "tipo": "detalle" },
+      { "src": "/productos/banjo-tubo-aireacion.webp", "alt": "Tubo de aireación tipo bastón de 2 pulgadas", "tipo": "detalle" },
+      { "src": "/productos/banjo-valvula-flotador.webp", "alt": "Válvula Flotador de 2 pulgadas", "tipo": "detalle" }
+    ],
+    "og_image": null,
+    "url_legacy": "https://www.troyaniinversiones.com/accesorios-banjo/",
+    "destacado": false,
+    "mas_popular": false,
+    "publicado": true
+  }
+]
