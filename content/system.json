@@ -1,0 +1,18 @@
+{
+  "precio": {
+    "cotizacion": "Precio por cotización",
+    "inc_igv": "inc. IGV"
+  },
+  "disponibilidad": {
+    "stock": "Stock {almacen}",
+    "a_pedido": "A pedido · {dias} días",
+    "consultar": "Consultar disponibilidad"
+  },
+  "whatsapp": {
+    "generico": "Hola Troyani, quiero cotizar.",
+    "contacto": "Hola Troyani, tengo una consulta.",
+    "no_encontrado": "Hola Troyani, no encontré lo que buscaba en {url}",
+    "catalogo_vacio": "Hola Troyani, busco {busqueda}. ¿Lo tienen disponible?",
+    "cotizar_producto": "Hola Troyani, quiero cotizar:"
+  }
+}

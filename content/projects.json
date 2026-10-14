@@ -1,0 +1,47 @@
+[
+  {
+    "slug": "minera-andina-arequipa-2026-08",
+    "cliente": "Minera Andina",
+    "sector": "Minería",
+    "region": "Arequipa",
+    "fecha": "2026-08",
+    "permiso_publicar": true,
+    "foto": {
+      "src": "/productos/2.webp",
+      "alt": "Despacho de tanques industriales para Minera Andina en Arequipa"
+    },
+    "items": [
+      { "capacidad_l": 10000, "cantidad": 12 }
+    ]
+  },
+  {
+    "slug": "agro-norte-piura-2026-07",
+    "cliente": "Agro Norte",
+    "sector": "Agroindustria",
+    "region": "Piura",
+    "fecha": "2026-07",
+    "permiso_publicar": true,
+    "foto": {
+      "src": "/productos/3.webp",
+      "alt": "Tanques de almacenamiento agrícola entregados en Piura"
+    },
+    "items": [
+      { "capacidad_l": 5000, "cantidad": 8 }
+    ]
+  },
+  {
+    "slug": "constructora-sur-cusco-2026-06",
+    "cliente": "Constructora Sur",
+    "sector": "Construcción",
+    "region": "Cusco",
+    "fecha": "2026-06",
+    "permiso_publicar": true,
+    "foto": {
+      "src": "/productos/1.webp",
+      "alt": "Lote de tanques de agua despachados para obra en Cusco"
+    },
+    "items": [
+      { "capacidad_l": 2500, "cantidad": 20 }
+    ]
+  }
+]

@@ -1,0 +1,52 @@
+{
+  "modo_demo": true,
+  "nombre_comercial": "Troyani Inversiones",
+  "dominio": "troyaniinversiones.com",
+  "razon_social": "Troyani Inversiones S.A.C.",
+  "contacto_nombre": "Silvana Troyani",
+  "ruc": "",
+  "whatsapp_e164": "51945226958",
+  "whatsapp_secundario": "51985134004",
+  "telefono": "51945226958",
+  "telefono_secundario": "51985134004",
+  "correo_ventas": "stroyani@troyaniinversiones.com",
+  "almacenes": [
+    {
+      "ciudad": "Lima",
+      "direccion": "",
+      "horario": "Lun a Sáb, 8:00 a 18:00",
+      "lat": 0,
+      "lng": 0
+    }
+  ],
+  "datos_confianza": [
+    {
+      "valor": "15 años",
+      "etiqueta": "distribuyendo en Lima y sur",
+      "fuente": "demo",
+      "icono": "experiencia"
+    },
+    {
+      "valor": "2,400 m² de almacén",
+      "etiqueta": "stock inmediato en Lima",
+      "fuente": "demo",
+      "icono": "almacen"
+    },
+    {
+      "valor": "Despacho a 18 regiones",
+      "etiqueta": "flota propia + transporte aliado",
+      "fuente": "demo",
+      "icono": "despacho"
+    },
+    {
+      "valor": "DISTRIBUIDOR ROTOPLAS",
+      "etiqueta": "carta de distribución en /nosotros/",
+      "fuente": "demo",
+      "icono": "distribuidor"
+    }
+  ],
+  "respuesta_horas": 2,
+  "redes": [
+    { "nombre": "Facebook", "url": "https://www.facebook.com/Troyaniinversiones.pe" }
+  ]
+}

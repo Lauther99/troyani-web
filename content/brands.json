@@ -1,0 +1,16 @@
+[
+  {
+    "slug": "rotoplas",
+    "nombre": "Rotoplas",
+    "logo": null,
+    "logo_autorizado": false,
+    "garantia_texto": "Garantía del fabricante contra defectos de fabricación, según la línea del producto."
+  },
+  {
+    "slug": "banjo",
+    "nombre": "Banjo – USA",
+    "logo": null,
+    "logo_autorizado": false,
+    "garantia_texto": "Línea industrial de válvulas y conexiones en polipropileno reforzado con fibra de vidrio."
+  }
+]

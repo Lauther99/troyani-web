@@ -1,32 +1,20 @@
-"use client";
+import type { Metadata } from "next";
+import StickyBar from "@/components/layout/StickyBar";
+import NosotrosClient from "@/components/nosotros/NosotrosClient";
 
-import MorphHero from "./components/MorphHero";
-import HistoriaTimeline from "./components/HistoriaTimeline";
-import MisionVision from "./components/MisionVision";
-import Valores from "./components/Valores";
-import CifrasClave from "./components/CifrasClave";
-import Equipo from "./components/Equipo";
-import CTAFinal from "./components/CTAFinal";
-import NosotrosHero from "./components/NosotrosHero";
-import NosotrosHero3D from "./components/NosotrosHero3D";
-import NosotrosBlueprintHero from "./components/NosotrosHeroBlueprint";
+export const revalidate = 86400;
 
-
-
+export const metadata: Metadata = {
+  title: "Nosotros | Troyani Inversiones - Distribuidor Autorizado Rotoplas",
+  description:
+    "Conoce a Troyani Inversiones, distribuidor autorizado Rotoplas en Perú desde 2015. Soluciones integrales de almacenamiento de agua y productos químicos para hogar, industria y agro.",
+};
 
 export default function NosotrosPage() {
   return (
-    <main className="overflow-x-hidden">
-      {/* <MorphHero /> */}
-      {/* <NosotrosHero /> */}
-      {/* <NosotrosHero3D /> */}
-      <NosotrosBlueprintHero />
-      <HistoriaTimeline />
-      <MisionVision />
-      <Valores />
-      <CifrasClave />
-      <Equipo />
-      <CTAFinal />
-    </main>
+    <>
+      <NosotrosClient />
+      <StickyBar />
+    </>
   );
 }

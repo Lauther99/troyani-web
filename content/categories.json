@@ -1,0 +1,182 @@
+[
+  {
+    "slug": "tanques-para-agua",
+    "nombre": "Tanques para Agua",
+    "linea": "hogar",
+    "tipos": ["tanque"],
+    "imagen": "/productos/prod-tanques.png",
+    "h1": "Tanques para Agua",
+    "intro": "Nueva línea de tanques domésticos Plus+ con protección antibacterial y garantía de por vida.",
+    "texto_seo": "La nueva línea de Tanques Plus+ de Rotoplas cuenta con diseño único en el mercado y está fabricada bajo una nueva tecnología de almacenamiento doméstico. Incorpora la nueva Tapa Plus+ que evita que se desprenda y contamine el agua, además de una exclusiva protección antibacterial con Tecnología Expel que reduce la producción de microbios y bacterias. Cuenta con orejas de sujeción para facilidad en el izaje durante la instalación y viene equipada con todos sus accesorios originales listos para instalar en viviendas y edificaciones.",
+    "orden": 1,
+    "meta": {
+      "title": "Tanques para Agua Plus+ | Troyani Inversiones",
+      "description": "Tanques de agua domésticos Rotoplas Plus+ de 700 L a 2,500 L equipados con accesorios y tecnología antibacterial Expel."
+    }
+  },
+  {
+    "slug": "cisternas",
+    "nombre": "Cisternas",
+    "linea": "hogar",
+    "tipos": ["cisterna"],
+    "imagen": "/productos/prod-cisternas.png",
+    "h1": "Cisternas para Agua",
+    "intro": "Cisternas diseñadas para ir enterradas y almacenar agua potable en casas y edificios.",
+    "texto_seo": "Una cisterna para agua es una estructura diseñada para instalarse enterrada y almacenar de forma segura el agua potable de una casa o edificio. Al instalar una cisterna en el hogar se logra contar con un sistema automático de suministro de agua sin ocupar espacio en la superficie. Disponibles en capacidades de 1,200 L, 2,000 L, 2,800 L, 5,000 L y 10,000 L, fabricadas en una sola pieza de polietileno de alta resistencia que evita fisuras y filtraciones, e incluyen sus accesorios de succión y tapa click.",
+    "orden": 2,
+    "meta": {
+      "title": "Cisternas para Agua Rotoplas | Troyani Inversiones",
+      "description": "Cisternas subterráneas para agua potable de 1,200 L a 10,000 L con accesorios incluidos para viviendas y edificios."
+    }
+  },
+  {
+    "slug": "biodigestores",
+    "nombre": "Biodigestores",
+    "linea": "hogar",
+    "tipos": ["biodigestor"],
+    "imagen": "/productos/prod-biodigestores.png",
+    "h1": "Biodigestores Autolimpiables",
+    "intro": "Tratamiento primario de aguas residuales domésticas para zonas sin red de desagüe.",
+    "texto_seo": "El Biodigestor Autolimpiable Rotoplas es un sistema eficiente para el tratamiento primario de las aguas residuales domésticas, mediante un proceso de retención y degradación séptica anaerobia de la materia orgánica. El agua tratada es infiltrada hacia el terreno aledaño mediante una zanja de infiltración o pozo de absorción según el tipo de terreno y zona. Es ideal para casas de playa, casas de campo, zonas emergentes, hoteles, fundos agrícolas, restaurantes, campamentos mineros y escuelas que carecen de red de desagüe.",
+    "orden": 3,
+    "meta": {
+      "title": "Biodigestores Autolimpiables Rotoplas | Troyani",
+      "description": "Biodigestores autolimpiables de 600 L a 7,000 L para tratamiento de aguas residuales en zonas sin red de desagüe."
+    }
+  },
+  {
+    "slug": "bombas",
+    "nombre": "Bombas",
+    "linea": "hogar",
+    "tipos": ["bomba"],
+    "imagen": "/productos/prod-bombas.png",
+    "h1": "Bombas Centrífuga y Periférica",
+    "intro": "Bombas eléctricas silenciosas de bajo consumo para caudal y presión de agua.",
+    "texto_seo": "Las bombas centrífugas y periféricas Rotoplas están diseñadas para cubrir las necesidades de caudal y presión de agua en viviendas y edificaciones. La Bomba Centrífuga de 1/2 HP y 1 HP es ideal para construcciones que requieren un gran caudal de agua, jardinería y llenado de contenedores. La Bomba Periférica de 1/2 HP es ideal donde se requieren presiones elevadas de agua. Ambas son resistentes a la intemperie, de bajo consumo eléctrico, funcionamiento silencioso y cuentan con 2 años de garantía contra defectos de fabricación.",
+    "orden": 4,
+    "meta": {
+      "title": "Bombas de Agua Centrífuga y Periférica | Troyani",
+      "description": "Bombas de agua Rotoplas centrífugas de 1/2 HP y 1 HP y periféricas de 1/2 HP con 2 años de garantía."
+    }
+  },
+  {
+    "slug": "filtros-y-purificadores",
+    "nombre": "Filtros y Purificadores",
+    "linea": "hogar",
+    "tipos": ["purificador"],
+    "imagen": "/productos/prod-filtros.png",
+    "h1": "Filtros y Purificadores",
+    "intro": "Purificadores sobre tarja, alcalinizadores y ósmosis inversa para agua pura en casa.",
+    "texto_seo": "La línea de filtros y purificadores Rotoplas ofrece soluciones avanzadas para disponer de agua pura y segura directamente en el hogar. Incluye el Purificador Sobre Tarja que retiene el 99.99% de bacterias del agua, el Purificador y Alcalinizador diseñado para brindar una hidratación superior con minerales esenciales para el cuerpo, y el Purificador de Ósmosis Inversa que combina purificación y filtración profunda en múltiples etapas para mejorar el sabor, olor y pureza del agua de consumo diario.",
+    "orden": 5,
+    "meta": {
+      "title": "Filtros y Purificadores de Agua | Troyani Inversiones",
+      "description": "Purificador sobre tarja, alcalinizador y sistema de ósmosis inversa Rotoplas para agua segura en el hogar."
+    }
+  },
+  {
+    "slug": "termas",
+    "nombre": "Termas",
+    "linea": "hogar",
+    "tipos": ["terma"],
+    "imagen": "/productos/prod-termas.png",
+    "h1": "Termas",
+    "intro": "Calentadores de agua instantáneos Express, Ducha eléctrica y Duraterma para el hogar.",
+    "texto_seo": "Nuestra línea de termas y calentadores de agua Rotoplas brinda confort y agua caliente segura para el hogar con equipos de fácil instalación y alta durabilidad. Contamos con los modelos Express, Ducha eléctrica y Duraterma, diseñados para adaptarse a distintos requerimientos de consumo familiar y presión de agua en viviendas y departamentos. Fabricados con materiales resistentes y sistemas de seguridad confiables, permiten disfrutar de agua a la temperatura adecuada en todo momento con el respaldo de Rotoplas.",
+    "orden": 6,
+    "meta": {
+      "title": "Termas y Duchas Eléctricas Rotoplas | Troyani",
+      "description": "Termas Rotoplas Express, Ducha eléctrica y Duraterma para calentamiento de agua en el hogar."
+    }
+  },
+  {
+    "slug": "tanques-industriales",
+    "nombre": "Tanques Industriales",
+    "linea": "agroindustria",
+    "tipos": ["tanque"],
+    "imagen": "/productos/tanque-industrial-ab.webp",
+    "h1": "Tanques Industriales",
+    "intro": "Tanques de 5,000 L a 25,000 L para agua potable (AB) y más de 300 sustancias químicas.",
+    "texto_seo": "Los Tanques Industriales Rotoplas están fabricados con polietileno de alta densidad 100% virgen para proyectos de agroindustria, minería e industria en general. Disponibles en versión para agua potable con protección antibacterial certificada (AB) y en versión para almacenamiento de más de 300 sustancias químicas, con opciones de tanque Estándar, Reforzado y Doble reforzado de acuerdo con la densidad del compuesto a almacenar. No generan color, olor ni sabor, resisten temperaturas extremas y no se oxidan ni corroen.",
+    "orden": 7,
+    "meta": {
+      "title": "Tanques Industriales de 5,000 L a 25,000 L | Troyani",
+      "description": "Tanques industriales Rotoplas para agua potable (AB) y sustancias químicas en grados estándar, reforzado y doble reforzado."
+    }
+  },
+  {
+    "slug": "nodriza-industrial",
+    "nombre": "Nodriza Industrial",
+    "linea": "agroindustria",
+    "tipos": ["nodriza"],
+    "imagen": "/productos/nodriza-industrial.webp",
+    "h1": "Nodriza Industrial",
+    "intro": "Tanques horizontales con rompeolas interno para transporte de agua, fertilizantes y químicos.",
+    "texto_seo": "La Nodriza Industrial Rotoplas es ideal para transportar agua, fertilizantes y más de 300 sustancias químicas con total seguridad en el sector agroindustrial, minero y de construcción. Fabricada con polietileno de alta densidad 100% virgen, posee un sistema interno de rompe olas que permite la estabilidad del producto almacenado en movimiento y un sistema de fijación con anclaje para su estabilidad al ser transportada. Disponible en capacidades de 1,100 L, 2,850 L y 5,000 L sin oxidarse ni corroerse.",
+    "orden": 8,
+    "meta": {
+      "title": "Nodriza Industrial Rotoplas | Transporte de Líquidos",
+      "description": "Tanques horizontales Nodriza Industrial de 1,100 L, 2,850 L y 5,000 L con sistema rompeolas para transporte."
+    }
+  },
+  {
+    "slug": "tolvas",
+    "nombre": "Tolvas",
+    "linea": "agroindustria",
+    "tipos": ["tolva"],
+    "imagen": "/productos/tolva-industrial.webp",
+    "h1": "Tolvas Industriales",
+    "intro": "Tolvas de fondo cónico para almacenamiento, sedimentación y dosificación total.",
+    "texto_seo": "Las Tolvas Industriales Rotoplas están diseñadas para el almacenamiento y dosificación de agua, alimentos y sustancias químicas en procesos agroindustriales e industriales. Fabricadas con polietileno de alta densidad 100% virgen, cuentan con fondo cónico que permite el vaciado total del producto y la sedimentación de sólidos suspendidos en líquidos. No generan color, olor ni sabor, manteniendo las propiedades físicas y químicas de los insumos almacenados. Disponibles en capacidades de 600 L, 1,300 L, 3,000 L y 7,000 L.",
+    "orden": 9,
+    "meta": {
+      "title": "Tolvas Industriales Cónicas Rotoplas | Troyani",
+      "description": "Tolvas cónicas de 600 L a 7,000 L para dosificación y vaciado total de agua, alimentos y químicos."
+    }
+  },
+  {
+    "slug": "cisterna-industrial",
+    "nombre": "Cisterna Industrial",
+    "linea": "agroindustria",
+    "tipos": ["cisterna"],
+    "imagen": "/productos/cisterna-industrial.webp",
+    "h1": "Cisterna Industrial",
+    "intro": "Cisternas reforzadas de 2,800 L a 10,000 L diseñadas para ser instaladas bajo tierra.",
+    "texto_seo": "La Cisterna Industrial Rotoplas está diseñada especialmente para ser instalada bajo tierra en proyectos industriales, agroindustriales y comerciales. Fabricada con polietileno de alta densidad 100% virgen y protección antibacterial certificada (AB), es ideal también para almacenar más de 300 sustancias químicas. Posee aros de refuerzo estructural para mayor estabilidad frente al terreno, no se agrieta ni se fisura como las cisternas de concreto tradicionales y no se oxida ni se corroe, evitando fugas y contaminación.",
+    "orden": 10,
+    "meta": {
+      "title": "Cisterna Industrial Subterránea Rotoplas | Troyani",
+      "description": "Cisternas industriales para instalar bajo tierra en capacidades de 2,800 L, 5,000 L y 10,000 L con aros de refuerzo."
+    }
+  },
+  {
+    "slug": "tanques-para-pisco-y-vino",
+    "nombre": "Tanques para Pisco y Vino",
+    "linea": "agroindustria",
+    "tipos": ["tanque"],
+    "imagen": "/productos/tanque-pisco-vino.webp",
+    "h1": "Tanques para Pisco y Vino",
+    "intro": "Tanques de 250 L a 25,000 L que conservan las características organolépticas y resisten 100° de alcohol.",
+    "texto_seo": "Los Tanques para Pisco y Vino Rotoplas están fabricados con polietileno de alta densidad 100% virgen para conservar intactas las características organolépticas del producto almacenado. Resisten hasta 100° de alcohol, siendo ideales para pisco, vino, macerados, agave y otros licores. Cuentan con indicador referencial de capacidad en galones y litros, aros de refuerzo para mayor estabilidad y no generan olor, color ni sabor. Disponibles en una amplia gama de capacidades desde 250 L hasta 25,000 L.",
+    "orden": 11,
+    "meta": {
+      "title": "Tanques para Pisco y Vino Rotoplas | Troyani",
+      "description": "Tanques para pisco, vino y licores de 250 L a 25,000 L. Resisten hasta 100° de alcohol sin alterar olor ni sabor."
+    }
+  },
+  {
+    "slug": "accesorios-banjo",
+    "nombre": "Accesorios Banjo",
+    "linea": "agroindustria",
+    "tipos": ["accesorio"],
+    "imagen": "/productos/banjo-valvula-full-port.webp",
+    "h1": "Accesorios para Tanques Industriales Banjo – USA",
+    "intro": "Válvulas Full Port, conexiones hexagonales EPDM/Viton, niples y flotadores industriales.",
+    "texto_seo": "Ofrecemos una solución integral para la carga y descarga segura de diversas sustancias en tanques industriales bajo la reconocida línea de accesorios Banjo – USA. Nuestro catálogo incluye conexiones hexagonales con empaque EPDM o Viton de 1\" a 4\", niples cortos con rosca NPT y válvulas de paso Full Port fabricadas en polipropileno reforzado con fibra de vidrio y pernos de acero inoxidable, además de tubos de aireación tipo bastón en PVC y válvulas flotador industriales de bronce y cobre de 2 pulgadas.",
+    "orden": 12,
+    "meta": {
+      "title": "Accesorios Banjo USA para Tanques Industriales | Troyani",
+      "description": "Conexiones hexagonales EPDM/Viton, niples cortos, válvulas Full Port y accesorios industriales Banjo USA."
+    }
+  }
+]
